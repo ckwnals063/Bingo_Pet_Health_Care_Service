@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="managePetModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.ManagePetViewModel"/>
+        <variable
+            name="manageDeviceModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.ManageDeviceViewModel"/>
+
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/cl_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:id="@+id/cl_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/cl_bnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="bottom|right"
+            app:srcCompat="@drawable/ic_add"
+            app:fabSize="normal"
+            app:backgroundTint="#ffffff"
+            android:onClick="@{()->managePetModel.clickAdd()}"/>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,86 @@
+package kr.co.jmsmart.bingo.view.base;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.databinding.BindingAdapter;
+import android.support.v7.widget.CardView;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import kr.co.jmsmart.bingo.R;
+
+/**
+ * Created by ZZQYU on 2018-12-17.
+ */
+public class CustomMainCardView extends LinearLayout {
+    private TextView tvTitle;
+    private TextView tvMore;
+    private TextView tvRate;
+    private TextView tvMent;
+    private CardView cardView;
+    public CustomMainCardView(Context context) {
+        super(context);
+        init(context, null, 0);
+    }
+
+    public CustomMainCardView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        init(context, attrs, 0);
+    }
+
+    public CustomMainCardView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        init(context, attrs, defStyleAttr);
+    }
+
+    public void init(Context context, AttributeSet attrs, int defStyleAttr) {
+        // Initialization
+        String infService = Context.LAYOUT_INFLATER_SERVICE;
+        LayoutInflater li = (LayoutInflater) getContext().getSystemService(infService);
+        View v = li.inflate(R.layout.custom_main_card_view, this, true);
+
+        cardView = (CardView) findViewById(R.id.card_view);
+        tvTitle = (TextView) findViewById(R.id.cv_tv_title);
+        tvMore = (TextView) findViewById(R.id.cv_tv_more);
+        tvRate = (TextView) findViewById(R.id.cv_tv_rate);
+        tvMent = (TextView) findViewById(R.id.cv_tv_ment);
+
+        TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.CustomMainCardView);
+
+        setTitleText(ta.getString(R.styleable.CustomMainCardView_titleText));
+        setRateText(ta.getString(R.styleable.CustomMainCardView_rateText));
+        setCardHeight((int)ta.getDimension(R.styleable.CustomMainCardView_cardHeight, cardView.getLayoutParams().height));
+        setBackgroundColor(ta.getColor(R.styleable.CustomMainCardView_backgroundColor, 0xffffff));
+        setMoreVisible(ta.getInt(R.styleable.CustomMainCardView_moreVisible, 0));
+        setTitleVisible(ta.getInt(R.styleable.CustomMainCardView_titleVisible, 0));
+        setMentVisible(ta.getInt(R.styleable.CustomMainCardView_mentVisible, 0));
+        setTitleTextSize(ta.getDimension(R.styleable.CustomMainCardView_titleTextSize, 20));
+        setRateTextSize(ta.getDimension(R.styleable.CustomMainCardView_rateTextSize, 56));
+    }
+    public void setTitleText(String title){
+        tvTitle.setText(title);
+    }
+    public void setRateText(String rate){tvRate.setText(rate);}
+    public void setCardHeight(int px){
+        ViewGroup.LayoutParams params =  cardView.getLayoutParams();
+        params.height = px;
+        cardView.setLayoutParams(params);
+    }
+    public void setBackgroundColor(int color){cardView.setCardBackgroundColor(color);}
+
+    public void setMoreVisible(int value){
+        tvMore.setVisibility(value);
+    }
+    public void setTitleVisible(int value){
+        tvTitle.setVisibility(value);
+    }
+    public void setMentVisible(int value){
+        tvMent.setVisibility(value);
+    }
+    public void setTitleTextSize(float value){tvTitle.setTextSize(value);}
+    public void setRateTextSize(float value){tvRate.setTextSize(value);}
+}

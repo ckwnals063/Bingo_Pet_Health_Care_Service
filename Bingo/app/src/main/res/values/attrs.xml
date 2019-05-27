@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomMainCardView">
+        <attr name="titleText" format="string" />
+        <attr name="rateText" format="string" />
+        <attr name="mentText" format="string" />
+        <attr name="mentTitleText" format="string" />
+        <attr name="cardHeight" format="dimension" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="rateTextSize" format="dimension" />
+        <attr name="backgroundColor" format="reference|color" />
+
+        <attr name="moreVisible" format="enum" >
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="titleVisible" format="enum" >
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="mentVisible" fformat="enum" >
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+    </declare-styleable>
+</resources>

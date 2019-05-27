@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="degree_affection">애정도</string>
+    <string name="degree_activity">활동</string>
+    <string name="degree_sleep">수면</string>
+    <string name="degree_feeling">기분</string>
+    <string name="view_more">더보기 ></string>
+    <string name="add_pet">반려견 추가</string>
+    <string name="rate_good">좋음</string>
+    <string name="rate_normal">보통</string>
+    <string name="rate_bad">나쁨</string>
+</resources>

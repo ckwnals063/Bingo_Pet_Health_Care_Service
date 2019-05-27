@@ -1,0 +1,1064 @@
+<resources>
+    <string name="app_name" >Bingo </string>
+    <string name="navigation_drawer_open" >Open navigation drawer </string>
+    <string name="navigation_drawer_close" >Close navigation drawer </string>
+    <string name="sky_sun" >Sunny day  </string>
+    <string name="deco_bulb" >Decoration bulb </string>
+    <string name="add_pet" >Add Pet </string>
+    <string name="rate_good" >Good </string>
+    <string name="normal" >Normal </string>
+    <string name="rate_bad" >Bad </string>
+    <string name="ble_scanning_info" >Searching devcies… </string>
+    <string name="ble_scan_result_info" >"""%d devices have been found""" </string>
+    <string name="share" >Share </string>
+    <string name="rank" >Rank </string>
+    <string name="months" >months </string>
+    <string name="of" > of </string>
+    <string name="manage_pet" >Manage pet </string>
+    <string name="manage_device" >Manage device </string>
+    <string name="my_page" >My page </string>
+    <string name="logout" >Log out </string>
+    <string name="finish_sign_up" >"Sign up completed.
+E-mail sent to registered your e-mail.
+Check the confirmation mail." </string>
+    <string name="confirm" >Confirm </string>
+    <string name="not_certified" >Account is not certified. Please check your confirm e-mail </string>
+    <string name="prompt_email" >E-mail </string>
+    <string name="password" >Password </string>
+    <string name="sign_in" >Log in </string>
+    <string name="cancel" >Cancel </string>
+    <string name="start_scan" >Start scan </string>
+    <string name="stop_scan" >Stop scan </string>
+    <string name="setting_profile_text" >Profile </string>
+    <string name="change_password" >Change Password </string>
+    <string name="account" >Account </string>
+    <string name="member_type" >User type </string>
+    <string name="birthday_hint" >Date of Birth ex>YYYYMMDD </string>
+    <string name="female" >Female </string>
+    <string name="male" >Male </string>
+    <string name="sex" >Sex </string>
+    <string name="phone_number" >Phone number </string>
+    <string name="name" >Name </string>
+    <string name="user_info" >User information </string>
+    <string name="password_check" >Password confirmation </string>
+    <string name="email_hint" >E-mail (xxx@abc.com) </string>
+    <string name="modify" >Modify </string>
+    <string name="mypage_apply" >Apply </string>
+    <string name="addFriend_searchBtn" >Add Friend </string>
+    <string name="setting" >Settings </string>
+    <string name="info_add_pet" >Registered pet not found. Moving to pet registration menu. </string>
+    <string name="info_add_device" >Registered device not found. Do you want to moving to device registration menu? </string>
+    <string name="sign_up" >Sign up </string>
+    <string name="device_scan" >Device scan </string>
+    <string name="edit_pet" >Modify pet </string>
+    <string name="add" >Add </string>
+    <string name="edit" >Modify </string>
+    <string name="previous" >Previous </string>
+    <string name="next" >Next </string>
+    <string name="info_personal" >Private information </string>
+    <string name="more_info" >Additional information </string>
+    <string name="birthday" >Date of Birth </string>
+    <string name="modi_info" >Modify Information </string>
+    <string name="account_settings" >Account settings </string>
+    <string name="remove_account" >Remove account </string>
+    <string name="service_inquiry" >Services / Contact us </string>
+    <string name="notice" >Notice </string>
+    <string name="terms_conditions" >Terms of conditions </string>
+    <string name="inquiry" >Contact us </string>
+    <string name="auto_login" >Auto log-in </string>
+    <string name="find_password" >" <u>Find Password</u>"</string>
+    <string name="sign_up_under" >"<u> sign up</u>"</string>
+    <string name="empty_mail_pw" >Please check your e-mail / password </string>
+    <string name="not_internet_connect" >Please check your internet access </string>
+    <string name="fail_login" >Log-in failed </string>
+    <string name="check_mail" >Please check your e-mail </string>
+    <string name="need_signup" >You need to sign-up to use Bingo </string>
+    <string name="home_ment" >\'%1$s\'s love index rate is %2$s </string>
+    <string name="sync_time" >%s standard </string>
+    <string name="connected" >Conneting </string>
+    <string name="connect_fail" >Connection failed </string>
+    <string name="breed" >Breeds </string>
+    <string name="weight" >Weight </string>
+    <string name="register_picture" >Register picture </string>
+    <string name="add_friend" >Add friends </string>
+    <string name="connect" >Connect </string>
+    <string name="disconnect" >Disconnect </string>
+    <string name="friend_list" >Friends list </string>
+    <string name="please_open_blue" >Please turn on your Bluetooth </string>
+    <string name="friend_ranking" >Friends rank </string>
+    <string name="ranking_total" >Total rank </string>
+    <string name="unit" >Unit </string>
+    <string name="connecting" >Connecting.. </string>
+    <string name="disconnect_pet_device" >Disconnect device linked to your pet? </string>
+    <string name="click_connect_device" >Click to connect new devices </string>
+    <string name="want_leave_account" >Do you want to leave your account? </string>
+    <string name="fail" >Failure </string>
+    <string name="week_compare" >Weekly report </string>
+    <string name="daily_report" >Daily report </string>
+    <string name="date" >Date </string>
+    <string name="item" >Items </string>
+    <string name="sync" >Sync </string>
+    <string name="search" >Search </string>
+    <string name="title_sub" >"%1$s' today detail data "</string>
+    <string name="title_week_comp" >"%1$s' weekly comparison" </string>
+    <string name="title_detail_item" >"%1$s' daily %2$s" </string>
+    <string name="title_daily" >"%1$s' daily report" </string>
+    <string name="rate_1" >Insufficient </string>
+    <string name="rate_2" >Low </string>
+    <string name="rate_3" >Normal </string>
+    <string name="rate_4" >Sufficient </string>
+    <string name="rate_5" >Fluent </string>
+    <string name="notification_title" >Device Synchronizing </string>
+    <string name="change_pet_device" >Change device connected to your pet? </string>
+    <string name="rate_6" >Bad </string>
+    <string name="rate_7" >Good </string>
+    <string name="comp_item_1" >Change drinking item </string>
+    <string name="comp_item_2" >Change pet toy </string>
+    <string name="comp_item_3" >Change pet home </string>
+    <string name="comp_item_4" >Change pet neck band </string>
+    <string name="comp_item_5" >Prescribe injection </string>
+    <string name="comp_item_6" >Take medicine </string>
+    <string name="comp_item_7" >Change pet feed </string>
+    <string name="comp_item_8" >Change pet cushion </string>
+    <string name="please_date" >Please input date </string>
+    <string name="conect_fail_msg" >Device connection failed. Try again? </string>
+    <string name="factory_reset" >Reset Factory </string>
+    <string name="must_connect" >Try again after conncting devices. </string>
+    <string name="change_device" >Change device </string>
+    <string name="friend_add_message" >Will you add %1$s to your friend? </string>
+    <string name="remove" >Remove </string>
+    <string name="need_sign_up" >"""Please sign up to use Bingo""" </string>
+    <string name="ranking_ment" >"Yesteday's %1$s love index rank is %2$s%% from above." </string>
+    <string name="ranking_low_ment" >Your rank is low. Please give more love to %1$s. </string>
+    <string name="ranking_nodata_ment" >No rank found. </string>
+    <string name="privacy_policy" >Private policy term </string>
+    <string name="sun_exposure" >Daily sunlight exposure </string>
+    <string name="ultraviolet" >UV rays exposure </string>
+    <string name="steps" >steps </string>
+    <string name="server_error" >Server error. Please try again later. </string>
+    <string name="login_id_input_error" >User and ID are same. \nPlease check once again. </string>
+    <string name="user_no_exist_error" >Registered user not found </string>
+    <string name="registerd_user_error" >Already registered user </string>
+    <string name="yes" >Yes </string>
+    <string name="no" >No </string>
+    <string name="press_one_more_text" >"Press once more, the program will be closed." </string>
+    <string name="profile_change_text" >Profile has been changed. </string>
+    <string name="profile_change_error" >Fail to change profile </string>
+    <string name="pet_info_input_error" >Please input correct pet information </string>
+    <string name="id_input_error" >Please input correct ID </string>
+    <string name="pw_input_error" >Please input correct password </string>
+    <string name="info_input_error" >Please input correct user information </string>
+    <string name="sign_in_success" >Sign in success </string>
+    <string name="act_time" >Act time </string>
+    <string name="play_time" >Play time </string>
+    <string name="rest_time" >Rest time </string>
+    <string name="synchronizing" >Synchronizing… </string>
+    <string name="find_password_text" >Please input your ID.\n\nE-mail for reset will be sent to your e-mail.\n </string>
+    <string name="find_password_ok" >Please check your e-mail. </string>
+    <string name="find_password_error" >Please re-check your e-mail. </string>
+    <string name="care_me" >Person who care me </string>
+    <string name="care_who" >Person who I care </string>
+    <string name="fail_remove_friend" >"\""Fail to remove friend.\\nPlease try again\""" </string>
+    <string name="success_logout" >Successfully logged out </string>
+    <string name="fail_signup" >Fail sign up </string>
+    <string name="fail_pet_data" >Fail pet data transfer </string>
+    <string name="info_friend_add" >"Please add up friend to monitor my pet's health status. "</string>
+    <string name="date_signup" >Signed up date </string>
+    <string name="info_comp" >Choose items to compare. </string>
+    <string name="year" >Year </string>
+    <string name="month" >Month </string>
+    <string name="day" >Day </string>
+    <string name="outdoor_morn_eve" >Except morning and evening </string>
+    <string name="bulb" >Bulb </string>
+    <string name="color_temp" >Color temperature </string>
+    <string name="cloud_shadow" >Cloudy day shadow </string>
+    <string name="ment_pink_box_1" >" Yesterday \""%1$s\""'s love score was \""%2$s\""." </string>
+    <string name="ment_pink_box_2" >"Today \""%1$s\""'s love score is \""%2$s\""." </string>
+    <string name="ment_pink_box_3" >"Today \""%1$s\""'s love score is \""%2$s\""." </string>
+    <string name="ment_love_1_a" >"Love index for \""%1$s\""is very high. Keep your love to \""%1$s\"" like now." </string>
+    <string name="ment_love_1_b" >"Love index for \""%1$s\""is high. Give more your love to \""%1$s\"", you will get A soon." </string>
+    <string name="ment_love_1_c" >"Love index for \""%1$s\""is normal. How about play with \""%1$s\"" today?  \""%1$s\""'s love inddex will increase. " </string>
+    <string name="ment_love_1_d" >"Love index for \""%1$s\""is not enough. \""%1$s\"" need your care desperately. Recommend to spend your time with exercise and walk with your pet for your pet health.  " </string>
+    <string name="ment_love_1_f" >"Love index for \""%1$s\""is not enough. \""%1$s\"" need your care desperately. You must spend your time with exercise and walk with your pet." </string>
+    <string name="ment_love_2_a" >"Love index for \""%1$s\""is very high. Keep your love to \""%1$s\"" like now." </string>
+    <string name="ment_love_2_b" >"Love index for \""%1$s\""is high. Give more your love to \""%1$s\"", you will get A soon." </string>
+    <string name="ment_love_2_c" >"Love index for \""%1$s\""is normal. How about play with \""%1$s\"" today?  \""%1$s\""'s love inddex will increase. " </string>
+    <string name="ment_love_2_d" >"Love index for \""%1$s\""is not enough. \""%1$s\"" need your care desperately. Recommend to spend your time with exercise and walk with your pet for your pet health.  " </string>
+    <string name="ment_love_2_f" >"Love index for \""%1$s\""is not enough. \""%1$s\"" need your care desperately. You must spend your time with exercise and walk with your pet." </string>
+    <string name="ment_love_3_a" >"Love index for \""%1$s\""is very high. Keep your love to \""%1$s\"" like now." </string>
+    <string name="ment_love_3_b" >"Love index for \""%1$s\""is high. Give more your love to \""%1$s\"", you will get A soon." </string>
+    <string name="ment_love_3_c" >"Love index for \""%1$s\""is normal. How about play with \""%1$s\"" today?  \""%1$s\""'s love inddex will increase. " </string>
+    <string name="ment_love_3_d" >"Love index for \""%1$s\""is not enough. \""%1$s\"" need your care desperately. Recommend to spend your time with exercise and walk with your pet for your pet health.  " </string>
+    <string name="ment_love_3_f" >"Love index for \""%1$s\""is not enough. \""%1$s\"" need your care desperately. You must spend your time with exercise and walk with your pet." </string>
+    <string name="ment_dep_1_1" >"Today's Serotonin level is very low. Please provide 30 minutes in sunlight to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_1_2" >"Serotonin level is lower than today's target. Please provide 20 minutes in sunlight to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_1_3" >"Serotonin level is close to today's target. Please provide 15 minutes in sunlight to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_1_4" >"Serotonin level reched today's target. Please keep Serotonin level like today to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_2_1" >"Today's Serotonin level is very low. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes in sunlight tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_2_2" >"Serotonin level is lower than today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes in sunlight tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_2_3" >"Serotonin level is close to today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes in sunlight tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_dep_2_4" >"Serotonin level reched today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes in sunlight tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_sun_1_1" >"Today's sunlight exposure level is very low. Please provide 30 minutes walk outside with pet to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="ment_sun_1_2" >"Today's sunlight exposure level is lower than today's target. Please provide 20 minutes walk outside with pet to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="ment_sun_1_3" >"Today's sunlight exposure level is close to today's target. Please provide 15 minutes walk outside with pet to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="ment_sun_1_4" >"Sunlight exposure level reched today's target. Please keep the sunlight exposure like today to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="ment_sun_2_1" >"Today's sunlight exposure level is very low. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_sun_2_2" >"Today's sunlight exposure level is lower than today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_sun_2_3" >"Today's sunlight exposure level is close to today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_sun_2_4" >"Sunlight exposure level reched today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="ment_bark_1_1" >"Today's physical activity is very low. Please provide 30 minutes walk outside with pet to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_1_2" >"Today's physical activity is lower than today's target. Please provide 20 minutes walk outside with pet to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_1_3" >"Today's physical activity is close to today's target. Please provide 15 minutes walk outside with pet to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_1_4" >"Today's physical activity reached today's target. Please keep walking outside with pet like today to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_2_1" >"Today's physical activity is very low. Please provide 30 minutes walk outside with pet right away if you can to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_2_2" >"Today's physical activity is lower than today's target. Please provide 20 minutes walk outside with pet right away if you can to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_2_3" >"Today's physical activity is close to today's target. Please provide 15 minutes walk outside with pet right away if you can to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_2_4" >"Today's physical activity reached today's target. Please keep walking outside with pet like today to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_3_1" >"Today's physical activity is very low. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_3_2" >"Today's physical activity is lower than today's target. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_3_3" >"Today's physical activity is close to today's target. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s metabolic syndrome." </string>
+    <string name="ment_bark_3_4" >"Physical activity reched today's target. Walking outside in evening will interrupt pet's sleep. Please keep the physical activity like today to prevent \""%1$s\""'s metabolic syndrom." </string>
+    <string name="ment_rest_1_1" >"Today's rest time is very low. Please provide more rest time for \""%1$s\""'s health." </string>
+    <string name="ment_rest_1_2" >"Today's rest time is close to today's target. Please provide more rest time for \""%1$s\""'s health." </string>
+    <string name="ment_rest_1_3" >"Today's rest time reached today's target. Please provide rest time tomorrow like today for \""%1$s\""'s health." </string>
+    <string name="ment_rest_1_4" >"Today's rest time is too long. Please take a look of ""%1$s\"" if it has fever or other anomalies. If this phenoma lasts more than 4 days, please visit nearest pet hospital." </string>
+    <string name="sub_sun_1_1" >"Today's sunlight exposure level is very low. Please provide 30 minutes walk outside with pet to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="sub_sun_1_2" >"Today's sunlight exposure level is lower than today's target. Please provide 20 minutes walk outside with pet to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="sub_sun_1_3" >"Today's sunlight exposure level is close to today's target. Please provide 15 minutes walk outside with pet to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="sub_sun_1_4" >"Sunlight exposure level reached today's target. Please keep the sunlight exposure like today to increase \""%1$s\""'s sleep effeciency." </string>
+    <string name="sub_sun_2_1" >"Today's sunlight exposure level is very low. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="sub_sun_2_2" >"Today's sunlight exposure level is lower than today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="sub_sun_2_3" >"Today's sunlight exposure level is close to today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="sub_sun_2_4" >"Sunlight exposure level reached today's target. Strong light in evening will interrupt pet's sleep. Please provide 30 minutes walk outside with pet tomorrow to prevent \""%1$s\""'s depressive tendency." </string>
+    <string name="sub_uv_1_1" >"Today's UV exposure level is very low. Please provide 30 minutes walk outside with pet between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_1_2" >"Today's UV exposure level is lower than today's target. Please provide 20 minutes walk outside with pet between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_1_3" >"Today's UV exposure level is is close to today's target. Please provide 15 minutes walk outside with pet between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_1_4" >"UV exposure level reached today's target. Please keep the UV exposure like today to for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_1_5" >"UV exposure level is exceeded today's target. Please move inside or to shade to prevent \""%1$s\""'s skin damage." </string>
+    <string name="sub_uv_2_1" >"Today's UV exposure level is very low. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_2_2" >"Today's UV exposure level is lower than today's target. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_2_3" >"Today's UV exposure level is is close to today's target. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_2_4" >"UV exposure level reached today's target. You must provide 30 minutes walk outside with pet tomorrow like today between 10 AM to 2 PM for \""%1$s\""'s shiny skin." </string>
+    <string name="sub_uv_2_5" >"UV exposure level is exceeded today's target. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for to provent \""%1$s\""'s skin damage." </string>
+    <string name="sub_vita_1_1" >"Today's Vitamin D level is very low. Please provide 30 minutes walk outside with pet between 10 AM to 2 PM to prevent \""%1$s\""'s osteoporosis." </string>
+    <string name="sub_vita_1_2" >"Today's Vitamin D level is lower than today's target. Please provide 20 minutes walk outside with pet between 10 AM to 2 PM for \""%1$s\""'s osteoporosis" </string>
+    <string name="sub_vita_1_3" >"Today's Vitamin D level is is close to today's target. Please provide 15 minutes walk outside with pet between 10 AM to 2 PM for \""%1$s\""'s osteoporosis." </string>
+    <string name="sub_vita_1_4" >"Vitamin D level reached today's target. Please keep the UV exposure like today to for \""%1$s\""'s osteoporosis.." </string>
+    <string name="sub_vita_2_1" >"Today's Vitamin D level is very low. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s osteoporosis." </string>
+    <string name="sub_vita_2_2" >"Today's Vitamin D level is lower than today's target. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s osteoporosis." </string>
+    <string name="sub_vita_2_3" >"Today's Vitamin D level is is close to today's target. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s osteoporosis." </string>
+    <string name="sub_vita_2_4" >"Vitamin D level reached today's target. You must provide 30 minutes walk outside with pet tomorrow between 10 AM to 2 PM for \""%1$s\""'s osteoporosis." </string>
+    <string name="sub_act_1_1" >"Today's walking is very low. Please provide 30 minutes walk outside with pet to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_1_2" >"Today's walking is lower than today's target. Please provide 20 minutes walk outside with pet between to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_1_3" >"Today's walking is is close to today's target. Please provide 15 minutes walk outside with pet between to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_1_4" >"Today's walking reached today's target. Please keep the walking like today to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_2_1" >"Today's walking is very low. Even now please provide 30 minutes walk outside with pet to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_2_2" >"Today's walking is lower than today's target. Even now  please provide 20 minutes walk outside with pet between to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_2_3" >"Today's walking is close to today's target. Even now please provide 15 minutes walk outside with pet between to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_2_4" >"Today's walking reached today's target. Please keep the walking distance like today to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_3_1" >"Today's walking is very low. You must provide 30 minutes walk outside with pet tomorrow to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_3_2" >"Today's walking is lower than today's target. You must provide 30 minutes walk outside with pet tomorrow to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_3_3" >"Today's walking is close to today's target. You must provide 30 minutes walk outside with pet tomorrow to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_act_3_4" >"Toda's walking reached today's target. Please keep the walking distance like today to strengthen \""%1$s\""'s joint." </string>
+    <string name="sub_play_1_1" >"Today's exercise level is very low. 30 minutes of running or fast walking is required for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_1_2" >"Today's exercise level is lower than today's target. 20 minutes of running or fast walking is required for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_1_3" >"Today's exercise level is close to today's target. 15 minutes of running or fast walking is required for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_1_4" >"Today's exercise level reached today's target. Please keep the exercise level like today for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_2_1" >"Today's exercise level is very low. Even now 30 minutes of running or fast walking is required for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_2_2" >"Today's exercise level is lower than today's target. Even now 20 minutes of running or fast walking is required for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_2_3" >"Today's exercise level is close to today's target. Even now 15 minutes of running or fast walking is required for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_2_4" >"Today's exercise level reached today's target. Please keep the exercise level like today for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_3_1" >"Today's exercise level is very low. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes of running or fast walking tomorrow for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_3_2" >"Today's exercise level is lower than today's target. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes of running or fast walking tomorrow for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_3_3" >"Today's exercise level is close today's target. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes of running or fast walking tomorrow for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_play_3_4" >"Today's exercise level reached today's target. Walking outside in evening will interrupt pet's sleep. Please provide 30 minutes of running or fast walking tomorrow for \""%1$s\""'s muscle strengthening." </string>
+    <string name="sub_rest_1_1" >"Today's rest time is very low. Please provide more rest time for \""%1$s\""'s health." </string>
+    <string name="sub_rest_1_2" >"Today's rest time is close to today's target. Please provide more rest time for \""%1$s\""'s health." </string>
+    <string name="sub_rest_1_3" >"Today's rest time reached today's target. Please provide rest time tomorrow like today for \""%1$s\""'s health." </string>
+    <string name="sub_rest_1_4" >"Today's rest time is too long. Please take a look of ""%1$s\"" if it has fever or other anomalies. If this phenoma lasts more than 4 days, please visit nearest pet hospital." </string>
+    <string name="time_item_no_select_error" >Please select items </string>
+    <string name="time_item_non_valid_date_error" >Please input correct date </string>
+    <string name="pet_male" >♂ </string>
+    <string name="pet_female" >♀ </string>
+    <string name="privacy_policy_text1" ><![CDATA["<b>Privacy Policy</b>
+<br>
+<br> Bingo service(“Bingo”) provided JM Smart(“The Company”) regards personal information of the users as important and complies with the Privacy Regulations and the ""Personal Information Protection Guidelines"" established by the Korea Communications Commission in the statutes related to personal information, such as the ""Act on Promotion of Information and Communications Network Utilization and Information Protection."" Through this Policy, the Company inform them of the purpose and method of Company’s using the personal information provided by the users and the measures taken by the Company for protection of those personal information.
+<br>
+
+<br><b>1. Personal information items to be collected </b>
+<br>
+<br>The company collects the following personal information by dividing in into essential information for providing basic services such as membership registration and smooth customer consultation, and optional information for providing customized services. The Company collects at least the personal information necessary to provide the user's personal information collection service. The Company shall not restrict or refuse to provide services on account of the customer's refusal to consent to collection and use of personal information, and not necessary items for account creation and individual services. Even if you do not enter selection information, there is no restriction on the use of the service and we do not collect any sensitive personal information (such as race, ideology, creed, political tendencies or criminal records) that may be of concern to your basic human rights abuses.
+<br>
+<br>(1)Item collected
+<br>
+<br>o Item collected at the time of registration
+<br>- Essential items: E-mail address(ID), password, date of birth, cell phone number, sex, weight,
+information of legal representatives for under age 14(E-mail of legal representatives, date of birth)
+<br>- optional items: profile picture, nickname
+<br>
+<br> o Collection of personal health information
+<br>-Body information: Height, weight, body fat, BMI analysis result, blood pressure, blood sugar, usual activeness, heart rate, skin temperature, skin resistance
+<br>-Exercise record: Weight training record, cardio record, calories burned, caloric intake, exercise
+goal session information
+<br>
+<br>o All members common: information below can be automatically collected during use of service or service provide process.
+<br>Automatically collected: User status information, user ID, service record, connection log, visit record, cookies, connected IP information, bad record.
+<br>
+<br>(2) Method of personal information collection
+<br>
+<br> Automatically collected by homepage registration, event application, collection of information during information generation, modify membership information, fax, telephone, contact with customer center, application or use, collect by voluntarily providing users during service subscription or use
+<br>※The company provide the procedure for users to select “agree” or “not agree” on each of the company’s personal information collection usage agreements.
+<br>
+<br><b>2. Purpose of use and collecting personal information</b>
+<br>
+<br>The company use collected personal information as follows. All information provided by users
+will not be used other than intended purpose below. Also the company will ask for consent to users when purpose changed.
+<br>
+<br>(1) Fulfillment of contracts related to the provision of services and settlement of fees due to provision of services
+<br>
+<br>• Providing contents, purchasing and payment, shipment of goods or billing, authentication of financial transaction and financial service, providing customized service, collection of fees, etc.
+<br>
+<br>(2) User management and identification
+<br>
+<br>• Identification in membership service, personal identification, prevention of unauthorized use of bad member and prevention of unauthorized use, confirmation of membership, age verification, complaint handling, notice notification, restriction of the number of enrollment and enrollment, legal representative identification (afterwards), preservation of records for dispute settlement
+<br>
+<br>(3) Use in marketing and information provision
+<br>
+<br>• Developing new services and providing customized services, providing event and advertising information, communicating information and providing customized services according to events, providing services based on demographic characteristics and posting advertisements, identifying access frequency or verifying the validity of services by members.
+
+<br>
+<br>(4) Usage in mobile application
+<br>
+<br>• Collects the phone numbers of the users and the phone numbers and e-mail addresses of third parties stored in the phone book of the users, and provides services such as checking existing users' membership in the service and recommending friends
+<br>
+<br>• Collects and uses account (ID) or nickname information related to friend or follower relation of other social network service such as user's Facebook, Twitter, etc., and provides services such as confirmation of membership of existing user in service and recommendation of friend
+<br>
+" ]]></string>
+    <string name="privacy_policy_text2" ><![CDATA["<br>(5) Utilization of statistical writing and actual condition investigation through non-identification of collected personal information
+<br>
+<br>• The company may not discriminate the collected personal information so that the individual cannot be identified, and the unidentified information may be collected, stored, and combined analysis without the consent of the user. The Company can generate new information through it, and can provide it to a third party without the consent of the user regarding the non-identified collection information and the new creation information. If personal information is generated in the process of non-identification process and processing of new information to be created, the company should destroy it without delay and re-identify it.
+<br>
+<br><b>3. Consignment of personal information</b>
+<br>
+<br>The Company is not currently carrying out services of personal information. However, in order to improve the service in the future, it may be entrusted, and in such case, we observe related laws and regulations, such as clearly notifying the user of the contents of the consignment processing agency business and the period of use and preserve of personal information.
+<br>
+<br><b>4. Period during which personal information is handled and retained </b>
+<br>
+<br>The Company will retain and use personal information only for the period of providing the service from the member’s site. In principle, the Company destructs personal information of users delay when: the purpose of its collection and use has been achieved; users request for remove; refuse to content personal information collection and usage. Information will be retained for specified periods as following reasons;.
+<br>
+<br>• Preserved items: E-mail address(ID), nickname, password
+<br>• Preservation basis: Prevent confusion in service usage and request by investigative agency for detecting illegal user
+<br>• Preserved period: 6 months
+<br>
+<br>If any information is to be retained as required by relevant laws and regulations, the Company retain it for the period as required by those laws and regulations.
+<br>
+<br>• Preserved items: E-mail address(ID), nickname, password
+<br>• Preservation basis: Act on the Promotion of Information and Communications Network Utilization and Information Protection, etc.
+<br>• Preserved period: 6 months
+<br>
+<br>• Preserved items: Service record, Connection Log, connected IP information
+<br>• Reservation basis: Communication Confidentiality Protection Act
+<br>• Preserved period: 3 months
+<br>
+<br>Consumer Protection Act in Electric Commerce etc.
+<br>• Record on sign/advertisement: 6 months
+<br>• Record regarding contract or withdrawal of subscription: 5 years
+<br>• Record on payment and supply of goods: 5 years
+<br>• Record on consumer complaint or dispute treatment: 3 years
+<br>
+<br><b>5. Procedure and method of destruction of personal information</b>
+<br>
+<br> In principle, the Company destructs the information immediately after the purpose of its collection and use have been achieved or possession period expired without delay. This principle will be same in case of withdrawal of personal information collection, usage of other purpose than collection, or provision to 3rd party by user or legal representatives. Procedure of destruction and method are followed as below.
+<br>
+<br>• Procedure of destruction
+<br>
+<br>o The information entered by the user for membership, etc., is transferred to a separate DB (in the case of paper, separate documents) after the purpose has been achieved, destructed after the period according to the internal policy and other relevant laws and regulations,
+<br>
+<br>o Personal information removed to specific DB will be used only for possession and not any other purpose except required by law.
+<br>
+<br>
+<br>• Destruction method
+<br>
+<br>o The company destruct: delete personal information stored in the form of electric file by using technological method making that information not restored.
+<br>o Hard copies of personal information is shredded or destroyed through incineration with a incineration.
+<br>o If  the company destruct personal information by withdrawal of personal information collection, usage of other purpose than collection, or provision to 3rd party by user or legal representatives in accordance with  article 7, the Company must notify to user or legal representative. For minor user, the Company must notify to legal representative.
+
+"]]> </string>
+    <string name="privacy_policy_text3" ><![CDATA["<br>
+<br><b>6. Provision of personal information to 3rd party </b>
+<br>
+<br>The Company shall use the personal information of the users within the range specified in ""2. Purpose of collecting and using the personal information"" and may not use the personal information of the user outside the scope without prior consent of the user or in principle not provided. However, in the following cases, we may use or provide your personal information carefully.
+<br>
+<br>• When the users consent to provide in advance
+<br>• When the Company’s service providers carry out services such as coupons for and on behalf of the Company
+<br>• If it is significantly difficult to obtain normal consent for economic / technical reasons as personal information necessary for the implementation of the contract on the provision of service
+<br>• In the event of a request by the investigative agency in accordance with the provisions of the act or in accordance with the procedures and methods set forth in the act for investigation purposes
+<br>• If the collected personal health information is needed for an emergency situation and the company is requested to provide information, in principle, it may be necessary to obtain the consent of the user, but if the user and the legal representative are in a state where they cannot display their wish, or if it is deemed necessary for the benefit of the urgent life, body and property of the user, the information can be provided without the consent of the user.
+.
+<br>
+<br><b>7. Rights of users and legal representatives and how to exercise them </b>
+<br>
+<br> User and user’s legal representative may at any time, view or modify their personal information or the personal information of minors under the age of 14, and may ask user to terminate user’s membership. User and user’s legal representative may request for personal health information in article 1, or the details provided to a 3rd party. If user click ""Profile"" or “Leave member” to change the personal information of a user or a child under 14 years of age, or to leave members (withdrawal), process if confirmation of personal identification will be done and then modification or withdraw will be done.
+Or by contacting the person in charge of personal information management in writing, by phone or e-mail. If you request correction of errors in user's personal information, we will not use or provide the personal information until the correction is completed. Also, if wrong personal information is already provided to a third party, we will notify the third party without delay and correct the result of the correction.
+The Company shall deal with personal information that is terminated or deleted at the request of the user or legal representative as described in ""3. Retention and Use Period of Personal Information"" and is prohibited from being viewed or accessed for any other purpose.
+<br> The responsibility of the accident caused by the inaccurate information entered by the user belongs to the user himself or his / her membership may be lost if he / she inputs false information such as theft of other information. User have the right to protect own personal information and to protect own and not to infringe on the information of others. Please be careful not to leak personal information of user including password, and do not damage personal information of others including post. If user do not fulfill such responsibilities and damage the information and dignity of others, user can be punished by 『Promotion of information network use and information protection,』 etc laws.
+<br>
+<br>
+<br><b>8. Matters concerning the installation, operation and rejection of the automatic collection device of personal information </b>
+<br>
+<br> The company operates a ""cookie"" that stores and finds information of users from time to time in order to provide customized services tailored to the users. The Company use cookies for the purpose as below.
+<br>
+<br>• Purpose of cookie
+<br>
+<br>o Analyze frequency and duration of membership and non-members' access, provide user's tastes and interests, track charity, provide other personal information
+policy and customized service // The users have an option for cookie installation. So, they may either allow all cookies by setting option in web browser, make each cookie checked whenever it is saved, or refuses all cookies to be saved.
+<br>
+<br>• Option for cookie installation
+<br>
+<br>o Example: they may either allow all cookies by setting option in web browser, make each cookie checked whenever it is saved, or refuses all cookies to be saved.
+<br>
+<br>o Setting example (Internet explorer): Web browser top Tools > Internet options > Private information; Provided that, if the user rejects the installation of cookies, it may be difficult for that user to use the parts of services provided by the Company.
+<br>
+<br><b>9. Technical, managerial and physical measures for protection of personal information </b>
+<br>
+<br>In order to prevent the loss, theft, leakage, alteration or damage of personal information of the users, the Company takes technical, managerial and physical measures for securing safety as follows;
+<br>
+<br>• Encryption of personal information
+<br>
+<br>o User’s personal information is protected by password, and important data is protected by separate security features such as encrypting file and transfer data, or by using the file lock function.
+<br>
+<br>• Technical, physical measures for hacking
+<br>
+<br>o In order to prevent leakage or corruption of user's personal information by hacking or computer virus, the company installs the system in the access control area from outside and installs intrusion detection device and intrusion detection system and monitors it for 24 hours. We also update the vaccine program periodically. If a sudden virus appears, we apply it as soon as the vaccine comes out to prevent infringement of personal information. In addition, the Company try to have all possible technical devices to ensure security in other systems.
+<br>
+<br>• Restrict to access personal information processing system
+<br>
+<br>o The Company establishes standards for granting, changing, and revoking access to database systems that are systematically organized to handle personal information, regulates the method of generating passwords, the period of change, etc., and controls access to other personal information that company is doing what the company need to do.
+<br>
+<br>• Provide education and training for staffs treating personal information
+<br>
+
+" ]]></string>
+    <string name="privacy_policy_text4" ><![CDATA["<br>o Personal information handling employees are limited to those who perform marketing tasks directly against users, those who perform personal information management tasks such as personal information manager and person in charge, and those who are inevitably in need of handling personal information due to their work, and business regular training is conducted on the acquisition of new security technologies and personal information protection duties, and administrative measures are taken to manage access rights by granting separate passwords.
+<br>
+<br>• Management of personal ID and password
+<br>
+<br>o As a rule, the ID and password used by the user are for use by the user only. The Company shall not be held responsible for any problems caused by leakage of personal information such as ID and password due to personal negligence of the user and for the risks arising from the basic Internet. User must be careful to change own password frequently with security consciousness of own password and to prevent personal information from being leaked when logging in on a public PC.
+<br>
+<br>• Notice of Infringement
+<br>
+<br>o The Company will notify the provider without delay if it finds that an intrusion of the user's personal information has been caused by a loss or destruction of the theft. If the information provider is under 14 years of age, the company will notify the provider as well as his legal
+.
+<br>
+<br><b>10. Notice of transfer to overseas or transfer of personal information </b>
+<br>
+<br> In case of transferring personal information out of the country, the Company shall disclose personal information items transferred in accordance with Article 63 of the Act on the Promotion of Information Network Usage and Information Protection, the name of the transfer country, transfer date, transfer method, will be notified to the user and will receive consent. In addition, in case of the transfer of the service of the service, in accordance with Article 27 of the Personal Information Protection Act, the user will be informed of the fact of transferring to the user, transfer recipient, method and procedure when transfer not wanted.
+
+
+<br>
+<br><b>11. Complaint service on personal information</b>
+<br>
+<br> Complaints about Personal Information The Service Company has designated the person in charge of personal information management as below to protect the personal information of the user and to handle complaints related to personal information. You may notify the person in charge of personal information management of all personal information related complaints that occur when you use the services of the company. The Company will respond promptly and fully to users' complaints
+<br>
+<br>• Manager of personal information protection : Eric Moon
+<br>• Department: Customer Service
+<br>• Position: Representative
+<br>• Phone number : 1833-7828
+<br>• E-mail : jmsmart@jmsmart.co.kr
+<br>• Fax : 02-6925-1719
+<br>
+<br>• Manager of personal information protection: Eric Moon
+<br>• Department: Customer Service
+<br>• Phone number: 1833-7828
+<br>• E-mail : jmsmart@jmsmart.co.kr
+<br>• Fax: 02-6925-1719
+<br>
+<br> User can inquire about personal information protection related questions, complaints, damages remedies, etc., when using the company's service (or business).
+<br> The Company will answer and handle inquiries of the information subject without delay.
+<br>
+<br>
+<br> Please contact the following organizations if user need to report or consult about other personal information infringement.
+<br>
+<br>• Personal Information Dispute Mediation Committee (www.kopico.go.kr)
+<br>• ePrivacy I-safe (www.epirvacy.or.kr / 02-580-0533~4)
+<br>• Supreme Prosecutor’s Office (www.spo.go.kr / 02-3480-3600)
+<br>• Cyber Bureau (cyberbureau.police.go.kr/02-182)
+<br>
+<br><b>12. Others</b>
+<br>
+<br>Please note that this “Privacy Policy” does not apply to collecting personal information from websites linked to this website..
+<br>
+<br><b>13. Items related to the change of privacy policy </b>
+<br>
+<br> This Privacy Policy is effective May 25, 2014, and is governed by the laws and regulations. Addition of content as the policy or security technology changes. If there is any deletion or amendment, we will notify you through the notice on the company website 7 days prior to the effective date of the change.
+<br>
+<br>• Version of private policy: 1.0
+<br>• Effect date of private policy: 25th Feb, 2019
+<br>
+<br>
+
+" ]]></string>
+    <string name="terms_conditions_text1" ><![CDATA["<b>Terms and conditions</b>
+<br>
+<br><b>Article 1 (Purpose)</b>
+<br>
+<br>The purpose of these terms and conditions is to prescribe the rights, obligations, and responsibilities of the JM Smart(hereinafter referred to as “The Company”), subscribers, and users regarding the use of the Bingo service(hereinafter referred to as “service”) provided by JM Smart.
+<br>
+<br><b>Article 2 (Definition of Terms)</b>
+<br>
+<br>Definitions of terms in this terms and conditions are as below.
+<br>
+<br>1. ""Service"" means the devices (including various wired and wireless devices such as PC, TV, portable terminal) to be implemented and all Bingo related services that can be used by ""members"".
+<br>
+<br>2. ""Member"" means customer who accesses the Company's ""Service"" and enters into a contract with the Company in accordance with these terms and uses the ""Services"" provided by the Company.
+<br>
+<br>3. ""ID (E-mail)"" means the combination of letters and numbers designated by the ""Member"" and approved by the ""Company"" for the identification of ""Member"" and ""Service"".
+<br>
+<br>4. ""Password"" means the combination of letters or numbers that the ""Member"" has defined for the purpose of securing the confidentiality of the Member and confirming that it is a ""Member"" that matches the ID (email).
+<br>At least
+<br>5. ""Point"" means virtual data on a ""Service"" that does not have any proprietary value that the Company may arbitrarily formulate, pay, or otherwise adjust for the efficient use of the Service.
+<br>
+<br>6. ""Paid service"" means various online digital contents (including various information contents, VOD, and other paid contents) and services provided by the Company for a fee.
+<br>
+<br>7. “Post"" shall mean any article, photograph, video, various files and links in the form of information such as codes, letters, voices, sounds, images, and videos posted by ""members"" in ""service"" And so on.
+<br>
+<br><b>Article 3 (Explanation and revision of the terms )</b>
+<br>
+<br>1. The Company shall notify the members of the Terms and conditions by posting them on the service screen (web site or application of the service) so that the members know. The Company may amend these Terms and Conditions to the extent that it does not violate the relevant laws such as the ""Regulation of the Terms of Use"", ""Promotion of Information Network Usage and Information Protection Act"" (hereinafter referred to as ""Information and Communication Law)
+<br>
+<br>2. Terms and conditions become effective as from the date of the notification as mentioned above. These Terms and conditions shall become effective upon notice as set forth in the preceding paragraph. However, if it is deemed necessary by the Company, the member may be notified by means of notifying by e-mail address entered at the time of membership.
+<br>
+<br>3. The Company may revise these Terms and conditions if it deems necessary, and the revised Terms and conditions shall specify the effective date and the reason for the revision, and notify the applicable terms and conditions on the applicable screen no later than seven (7) days prior to the effective date. However, in the case of amendment of a contract which is disadvantageous to a member or includes a change of a serious matter, at least a 30-day advance grace period is notified through connection screen with an initial screen or be notified explicitly through electronic means such as notes, e-mail, agreement pop-up when log-in.
+<br>
+<br>4. If the Company notifies the members in accordance with the preceding paragraph, and clearly indicates that it has approved the revised agreement unless the company expresses its intention to refuse it until seven days after the notice and notice date, it has been issued, it shall be deemed to have approved the changed Terms and conditions.
+
+<br>
+<br>5. If a member disagrees with the application of the revised Terms and conditions, the Company shall not be able to apply the revised Terms and Conditions, in which case the member or the Company may terminate the service use agreement.
+<br>
+<br>6. By agreeing to these Terms and conditions, user agree to periodically visit the service's website or application to confirm the changes to the Terms and conditions. The Company shall not be held responsible for any damages incurred by users who do not know the changed terms and conditions.
+<br>
+<br>7. The matters not specified in these Terms and conditions and the interpretation of these Terms and conditions shall be governed by the Act on Consumer Protection in Electronic Commerce etc., the Act on the Regulation of the Terms, the Act on Information Network Promotion and Information Protection, Industrial Promotion Act ""and other relevant laws..
+<br>
+<br><b>Article 4 (Provision and change of services)</b>
+<br>
+<br>1.The types of services the Company offers are listed below.
+<br>
+<br>1) Bingo service
+<br>
+<br>2) Bingo related services
+<br>
+<br>3) Any other service provided by the Company in its own way, by additional development or by affiliation with another company
+<br>
+<br>Establishment and reservation of use contract
+<br>1.Anyone who wishes to become a member can become a member and use the service in the following manner.
+<br>
+<br>1) After the person who wants to become a member agrees to the Terms of Service and the Privacy Policy of the Service, he / she shall register an arbitrary ID (E-mail) and password to be designated and apply for the service using the information requested by the Company, with the company's approval. A child under the age of 14 must go through the consent process of the legal representative required by the company in order to use the service
+<br>
+<br>2. The Company shall, in principle, approve the use of the service for membership application. However, the Company may not approve any application falling under any of the following subparagraphs, or may terminate the use contract at any time after such termination.
+<br> In this case, the Company shall notify the applicant by posting on the relevant service screen or by e-mail about the reason for the reservation of acceptance, the possible time for approval or the additional request information or data required for other reservation or reject of approval.
+<br>
+<br>1) If the Company does not have a realistic margin for the service capacity or if it is determined that there is a technical problem in providing the service
+
+<br>
+<br>2) If the other company deems it necessary financially or technically
+<br>
+<br>3) If the applicant has been previously deprived or deprived of his or her membership in accordance with the terms of this agreement, except where he / she has explicitly obtained the member's re-approval of.
+<br>
+<br>4) If user do not use own real name or apply for personal identity information such as someone's name, e-mail address, ID, etc.
+
+<br>
+<br>5) If user do not fill in false information, do not fill in all the contents provided by the company, or omit the essential items or write them differently than the facts, the application requirements set by the company are not fulfilled
+<br>
+<br>6) If user intend to use the service for illegal purposes such as illegal or illegal acts
+
+<br>
+<br>7) If user use a bug or malicious program or exploit a system vulnerability and apply for membership in a fraudulent manner
+<br>
+<br>8) If user intend to use the service for the purpose of pursuing profit without prior agreement of the Company
+<br>
+<br>9) If it is judged to be a member that does not conform to the Company's internal service standards and company policy, or if it is difficult to provide the service
+<br>
+<br>10) When applying for the purpose of hindering social well-being, order or morals
+<br>
+<br>11) If user apply in violation of this Terms and conditions or any other provision
+<br>
+<br>12) If user is not able to approve due to the reason of the user's fault or if you apply in violation of other prescribed matters
+
+<br>
+<br>13) If user intend to use the service against the purposes and methods specified by the Company
+
+<br>
+<br>14) If the purpose of use of the member or the use of the service is the infringement or infringement of the property right or goodwill of the Company
+
+<br>
+<br>15) If you conduct a large number of IDs and domains through unusual methods such as program registration, part-time employment
+<br>
+
+"]]> </string>
+    <string name="terms_conditions_text2" ><![CDATA["<br>16) If a user is competing with this service
+<br>
+<br>3. In the event that the Company finds that there is a temporary or long-term hindrance in the member's registration due to technical reasons such as an attack on the system, a technical or business problem, a technical obstacle In the event of a dispute, permission to use the service may be waived or the authorization may be restricted until the reasons for the authorization are resolved. In this case, the Company will post on the service screen or notify via e-mail. However, if there is an unavoidable reason that cannot be notified in advance.
+<br>
+<br>4. The company can restrict the scope of a service by classing the members according to the company's policy, or divide the contents of the service, such as the hours of use, the number of times of use, and the menu of the service, into different member ratings.
+<br>
+<br>Change of member information
+<br>
+<br>1. Members may view and modify their personal information at any time through the service's personal information management screen. However, the ID (E-mail) required for service management cannot be modified.
+<br>
+<br>2. When a member changes the contents of the personal information stated at the time of membership, the member must correct the changes immediately and the Company shall not be held responsible for any damages caused by the delay of the change.
+<br>
+<br>Provision, change, suspension of service
+<br>
+<br>1. If necessary for the provision of services, the Company may collect and use the membership information and other information items requested by the member, such as addition, deletion, etc., in accordance with the relevant laws and company's privacy policy.
+<br>
+<br>2. The Company reserves the right to use the Company's or Bingo Service's trade names, trademarks, service marks, logos, domain names, and / or other names and and does not give user the right to use any other discernible brand features.
+<br>
+<br>3. The services provided by the company continue to evolve. The form, function, and design of the services provided by the Company may be changed or discontinued as needed. In this case, the Company will not notify the member in advance of individual changes.
+<br>
+<br>4. If the service provided by the preceding article is changed or discontinued, the service provided free of charge will not be compensated by the member unless otherwise specified in the applicable.
+<br>
+<br>5. Members may provide ideas to the Company at any time for improvement and development of services, and if necessary, the Company can utilize the ideas presented by members to provide services such as additional services developed and improved. In this case, the intellectual property rights of the product developed by the Company through the ideas presented by the member are attributed to the Company.
+<br>
+<br>6. If there are other reasons such as difficulty in providing smooth service due to a decrease in usage and deterioration of profitability, necessity of conversion to next generation service due to technological progress, change of company policy related to service provision, user may modify, change, terminate or terminate any or all of the Services provided on an as-needed basis at any time. No compensation will be given to the member.
+<br>
+<br>7. In the event that the Company intends to terminate the service entirely due to the company's policy decision, such as the planning or operation of the service or the urgent situation of the company, the Company may notify the member through e-mail or service homepage 7 days before and terminate the service. The Company shall not be liable for any additional obligations or damages arising out of the termination of the Service and the Member shall not be entitled to demand the provision of the Service or claim compensation for the interruption of the Service if the Service is permanently terminated.
+<br>
+<br>8. The Company may suspend the use of the service by the member immediately if the member violates the law or violates the Terms and conditions or the Terms of Use of the Service in using the Service.
+<br>
+<br>9. The Company may suspend the use of the user's services if the member makes an attempt to unlawfully hack the service, attempt to observe it in an abnormal manner, or attempt to use the network excessively.
+<br>
+<br>10. When applying for membership, the company may ask for the verification of the real name through the specialized agency and the authentication of the member according to the type of member.
+<br>
+<br>11. The ""Company"" may restrict the use of the ""Member"" by the use of the ""Movie and Video Promotion Act"" and the ""Youth Protection Act"".
+<br>
+<br><b>Article 5 (Service use)</b>
+<br>
+<br>1. Service hours are normally 24 hours a day (24 hours a day). However, due to periodical inspection of service facilities, provisional inspection, etc., the company may divide the service use time into a specific range and set the date and time separately.
+<br>
+<br>2. The Company may temporarily suspend the provision of services in the event of maintenance, replacement or breakdown of communication facilities such as computers, loss of communication or operational reasons. In this case, we notify the member by e-mail or other means. However, if there is an unavoidable reason that the Company cannot give notice in advance, it can notify after the fact. The Company shall not be liable for any damages incurred by members resulting from the notice.
+<br>
+<br>3. The Company may conduct periodic inspections or provisional inspections if necessary for the provision of services, and the inspection time shall be as posted on the service provision screen.
+<br>
+<br>4. The Company may notify the member's registered e-mail address of the addition, change or deletion of the contents of the service, insofar as it is deemed necessary by the Company to add, change or delete the service contents of the Company.
+<br>
+<br>5. The Company may modify, suspend or modify any or all of the services provided free of charge in accordance with the Company's policy and operational requirements and shall not make any compensation to the member unless otherwise provided in applicable law.
+<br>
+<br>6. In case of the previous article, when notifying the unspecified number of persons, it is possible to notify the members through the announcement page of other companies of the website
+<br>
+<br>7. If the Company notifies the members of any other matters, the Company may also use the e-mail address, etc., unless otherwise stipulated in these terms and conditions.
+<br>
+<br>8. The Company may substitute for the notice in article 7 by posting on the Company's bulletin board for more than seven days in the case of notice to the entire member.
+<br>
+<br>Information provision and show ads
+<br>
+<br>1. The Company may provide various kinds of information that the member considers necessary during the use of the service to the member by means of notices or e-mail. However, members may refuse to receive e-mail at any time, except for the information related to transactions and related inquiries, etc.
+<br>
+<br>2. The Company may place advertisements on the service screen, on the homepage, and on e-mail in connection with the operation of the service, a member who receives an e-mail with an advertisement can express a rejection to the company.
+<br>
+<br>3. The user (including members and non-members) does not take any action to change, modify, restrict, or otherwise alter any posts or other information related to the services provided by the Company.
+<br>
+<br>4. The Company may adjust some or all of the points after prior notification in order to ensure efficient use and operation of the services, and the points may be terminated periodically according to the period set by the Company.
+<br>
+<br>5. The Company may show ads using the information entered by the customer and information entered by the customer in relation to the operation of the service. Member agrees to display customized ads that are exposed when using the service.
+<br>
+<br>6. The Company shall not be liable for any loss or damage which may arise as a result of member participation, communication, or transaction with the advertiser's promotional activity posted on the Service or through the Service.
+<br>
+<br>7. The Company may use the following information collected with the member's consent to provide the user suggestions.
+<br>
+<br>1) Phone numbers and email addresses of third parties stored in the member's mobile phone address book
+<br>
+<br>2) Member's twitter account, member's twitter follow list, profile information
+<br>
+<br>3) Member's facebook account, member's facebook follow list, profile information
+<br>
+<br>4) Member's me2day account, member's me2day follow list, profile information
+<br>
+<br>5) Member's CYWORLD account, member's CYWORLD follow list, profile information
+<br>
+<br>8. If necessary, the Company may determine the detailed contents (usage policy) related to the use of the service and the applicable matters (individual terms) applicable to the specific service and guide them through the service.
+<br>
+<br><b>Article 6 (Management of member’s ID(E-mail), password)</b>
+<br>
+<br>1. Member acknowledges and agrees to the terms of use provided by the Company, and expresses the agreement of the Company's services, and the Company shall provide services to the Members by accepting them.
+<br>
+<br>2. Consent to the use agreement is indicated by clicking the terms and conditions when registering for membership.
+<br>
+
+"]]></string>
+    <string name="terms_conditions_text3" ><![CDATA["<br>3. Members are responsible for managing their ID and password.
+<br>
+<br>4. Member must not provide ID and password for third party use.
+<br>
+<br>5. Members shall be responsible for the loss of service caused by negligent management of their ID and password, or the unauthorized use of third party without any intention or serious negligence of the Company, and the Company shall not be responsible for it.
+<br>
+<br>6. Members should immediately notify the Company and follow company instructions if they know that their ID and password are stolen or used by a third party.
+<br>
+<br>7. The Company shall not be liable for any disadvantage caused by the failure of the member to notify the Company or to notify the Company in the case of the previous article.
+<br>
+<br>8. The Company may restrict the use of the ID if the ID of the member is concerned about the leak of personal information, the anti-social, or misunderstanding of the Company or the operator of the Company.
+<br>
+<br><b>Article 7 (Definition of a post)</b>
+<br>
+<br>1. Posts mean posts, images, files, comments, links, etc. posted by members in the service while using the service.
+<br>
+<br>2. The posting publicly posted by the member in the service must not violate Article 11, paragraph 1.
+<br>
+<br>3. Any loss or legal liability arising out of the posting publicly posted by the member in violation of Article 11 paragraph 1 shall be borne by the member.
+<br>
+<br><b>Article 8 (The right of rights)</b>
+<br>
+<br>1. All rights, including copyrights and intellectual property rights, to the services, written postings or works provided by the Company to the members shall be attributed to the Company and all rights including the copyrights of the postings made by the member in using the service shall be vested in the respective members unless there is a separate expression of opinion.
+<br>
+<br>2. The Company may use the member's work in any website, service, and printed matter operated by the Company.
+<br>
+<br>3. The postings posted by members in the service may be reproduced, displayed, distributed, and exposed within the scope of the service provided for the search results, service and related promotions, operation and promotion of the service, and may be partially modified, duplicated, edited and published for the exposure. In this case, the company shall comply with the copyright laws, and the member can take any action such as deleting, excluding the search result, or showing the private information at any time through the customer center or the management function within each service.
+<br>
+<br>4. The Company shall not be held responsible for any disputes between co-authors.
+
+<br>
+<br>5. If a member withdraws from membership, all of the assets recorded in his / her domain will be deleted. However, if the work is created through co-authoring, the corresponding post may remain in the domain of the co-author, or may be kept by a third party or copied through unauthorized copying, is not responsible. In addition, in the case of a member who violates the terms and conditions and the relevant laws and regulations, in order to protect other members and use it as evidence for the request of a court, investigation agency or related organization, user’s domain information can be kept.
+
+<br>
+<br>6. Civil liability arising from member's post or copyright infringement of intellectual property rights such as copyrights of company or third party shall be borne wholly by the member.
+<br>
+<br>7. The member agrees that the granting of the right to use the postings of paragraph 2 and 3 of this article is definitively valid during the operation of the Service by the Company and is valid after the member's withdrawal.
+
+<br>
+<br>8. The Company grants to the members only the right to use the account, ID, contents, points, etc. in accordance with the terms and conditions set by the Company in relation to the service, and the member cannot do the disposition such as transfer, sale, security provision.
+<br>
+<br>9. All other trademarks, service marks, logos, and other copyright and other intellectual property rights relating to the services provided by the Company, including the design of the services provided by the Company, company-created texts, scripts, graphics, are owned by the company or licensed by the Company under the law of Republic of Korea.
+<br>
+<br>10. Members are permitted to use the Service from the Company, not to own the Service or to own the Service due to the terms and conditions, and the service may be used by the member in the form provided for information acquisition or personal.
+<br>
+<br>11. Except for expressly permitted contents, members may not copy, distribute, or distribute member status information for profit obtained through the service, including the use of text, scripts, graphics, transfer between members’ function.
+<br>
+<br><b>Article 9 (Restrict and stop usage of service)</b>
+<br>
+<br>1. The Company may limit, suspend or permanently suspend the use of the member's services, in whole or in part, if one of the following causes below
+<br>
+<br>1) If a member interferes with the normal operation of the Company's service by intentional or gross negligence
+<br>
+<br>2) A member violates the obligations of Article 11
+<br>
+<br>3) If it is unavoidable due to service inspection, repair, or construction
+<br>
+<br>4) When a telecommunications carrier specified in the Telecommunication Business Act terminates telecommunication services
+
+<br>
+<br>5) When there is a disruption in the use of the service due to fire, natural disasters, war, national emergency, disruption of service facilities, excessive use of the service, technical difficulties that are difficult to solve, or serious changes in service operations or serious change is predicted
+<br>
+<br>6) If the Company considers that it is inappropriate for the Company to continue providing services due to other serious reasons
+<br>
+<br>2. If the Company restricts or cancels the use of the service pursuant to the provision of the preceding paragraph, the Company shall inform the member of the reason and the period of limitation
+.
+<br>
+<br>3. If a member's post contains information that is in violation of relevant laws such as the Information and Communications Network Act and the Copyright Act, the right holder may request the posting of the posting to be deleted or deleted in accordance with the procedures established by the relevant law.
+<br>
+<br>4. In the event that there is a reason for the violation of the rights, or violation of other company policies and related laws, even if there is no request by the right holder pursuant to the preceding paragraph, the company may take the deletion or provisional measures against the relevant ""post"".
+<br>
+<br>5. Despite previous paragraph, the Company may suspend user permanently in the event of a breach of applicable law such as theft or fraudulent use of the Internet in violation of the Resident Registration Act, for the provision and operation of illegal programs in violation of copyright and computer program protection laws, illegal communication and hacking in violation of the information and communication network law. In the event of suspension of the permanent use pursuant to this paragraph, all points and other benefits acquired through the use of the service will also be terminated and the Company will not compensate for it.
+<br>
+<br>6. The Company may discontinue or limit its use for the protection and effective operation of its membership information if the member has not logged in for more than three months.
+<br>
+<br>7. In the event that any use of the Service is restricted or terminated pursuant to this Article, the Company shall notify the Company pursuant to Article 5 [Use of Services].
+<br>
+<br>8. By using the service, the company is not responsible for the problems between the members in the service area.
+<br>
+<br>9. The use of ID and domain can be restricted if the member violates the member's mandatory provisions due to the member's loose ID and password leakage, or the member's service use damages or misuse by a third party.
+<br>
+<br>10. If the company is required to protect the rights and interests of other members and maintain order of service, such as when the member's ID and domain are directly involved in a particular violation during the investigation of the obligatory violation of Article 11 of this Agreement, the use of the ID and domain may be suspended.
+<br>
+<br><b>Article 10 (Company’s obligation)</b>
+<br>
+<br>1. The company will manage the members' information and exert its best efforts to ensure accurate information analysis and optimal service delivery by a good administrator. However, the service provided by the Company is not for medical purposes.
+<br>
+<br>2. The Company shall faithfully implement measures such as maintenance, inspection or restoration to suit the continuous and stable service provision of facilities related to the Company's service provision and security. However, the Company may suspend service for the purpose of repair, replacement and failure of information and communication facilities, communication failure, regular inspection, or operation reasons.
+<br>
+<br>3. The Company shall endeavor to protect the personal information of the members that it learns about the provision of the services without disclosing or distributing to the third party or other economic or commercial purposes other than the Company's service without the consent of the user. The handling and management of members' personal information is in accordance with the company's Privacy Policy, and other matters concerning members' privacy are in accordance with the relevant laws, such as the Act on Promotion of Information and Communication Network Utilization and Information Protection<br>
+<br>4. The Company will share the e-mail address and password to provide this service to members, and such information will be shared at the time of termination of this service or until the member withdraws from membership.
+<br>
+
+" ]]></string>
+    <string name="terms_conditions_text4" ><![CDATA["<br><b>Article 11 (Membership obligations)</b>
+<br>
+<br>1. Members shall not use the services provided by the Company for purposes other than those for which they were originally intended or shall not engage in any of the following activities. The Company may take reasonable measures such as suspension of use of the service, limitation of the use of the service such as cancellation of the contract, accusation to the investigation agency, etc., in accordance with the seriousness of the violation.
+<br>
+<br>1) The act of registering or incorrectly registering false information when registering or changing member information and applications
+<br>
+<br>2) To make changes to the information posted on the Company's services or to use the information obtained from the services for the purpose of commercial, non-profit, reproduction, publication or broadcasting without prior consent of the Company or to provide such information to third party
+
+<br>
+<br>3) Transmitting or posting information other than information set by the Company (such as computer programs);
+<br>
+<br>4) Threatening the company or other third party's rights, rights, or electronic transaction order, such as defaming the company and other third parties' reputation, insult, slander, or false facts about the company and other third parties' patents, trademarks, copyrights, intellectual property rights, and trade secrets
+<br>
+<br>5) An Act of impersonating another member if he or she illegally used the service by stealing personal information such as e-mail addresses and passwords of other members
+<br>
+<br>6) The act of using the paid service of the company by using payment information of other people without the permission of others, such as account number and credit card number of others
+<br>
+<br>7) Transmitting or posting information (such as a computer program) that such as junk mail, spam mail, chain letters, and inviting pyramid organization is prohibited to be transmitted or posted by related laws and ordinances such as information communication network promotion and information protection law.
+<br>
+<br>8) Posting the youth harmful media prescribed by the Juvenile Protection Act
+
+<br>
+<br>9) The act of disseminating information, sentences, figures, voices, etc. that violate social well-being and public order or morals.
+<br>
+<br>10) The act of opening or posting abusive, obscenity, profanity, explicit sexual descriptions or violent messages, video, voice, or other vulgar information against the East and the West in a service or publishing obscene materials or linking pornographic websites.
+<br>
+<br>11) The act of impersonating, impersonating, sending, or misusing others' names, or posting messages with official company positions, such as managers, executives, operators, and officials of a company and services.
+<br>
+<br>12) The act of posting or e-mailing material containing software viruses, other computer codes, files and programs designed to disrupt and destroy the normal operation of computer software, hardware and telecommunications equipment;
+<br>
+<br>13) The act of stalking, teasing, threatening, or causing constant pain or inconvenience to a particular member, preventing other members from using the service by swearing, posting content unrelated to the service provided by the Company;
+<br>
+<br>14) The act of collecting, storing, disclosing, disseminating, and stealing personal information and account information of other members and third parties, including names and phone numbers, without their consent;
+<br>
+<br>15) An act to post information related to the sale or sale of cyber items or virtual assets in the service, if not permitted by the Company's policy;
+<br>
+<br>16) In case of a content that is objectively recognized as being connected to a crime or violation of the current statute;
+<br>
+<br>17) An act that results in financial gain or hinders the Company's service operation by repeatedly joining or withdrawing members without justifiable cause
+<br>
+<br>18) An act that change or interfere with the way the service program is offered or planned by the Company.
+<br>
+<br>19) Transfer or trade members' identities and points of service to others
+<br>
+<br>20) The act of forming an organization based on social prejudice, such as an organization that demeans or discriminates against a particular religion, and causes religious or political disputes, when such disputes are deemed to hinder or hinder the company's work
+<br>
+<br>21) Other illegal or unjustifiable acts, such as violating the current statutes, the terms and conditions set forth by the company for the use of other services, and obstructing the normal operation of the Company and its services
+<br>
+<br>22) The act of stealing third-party IDs or domains, obtaining third-party identity, domain and authentication information through all hacking activities, such as network hacking, system hacking, and PC hacking, and granting access to non-person third-party access
+<br>
+<br>23) The acts that induce companies to install programs that are not pre-approved by the company, such as Active X, spyware, and adware, without elaborating on their intended use
+<br>
+<br>24) An act to induce visitors to visit a particular site regardless of the intention of a service visitor or other member
+<br>
+<br>25) The act of using the service using the corresponding service, program bug, etc.
+<br>
+<br>26) Acts that encourage illegal copying or hacking; replicating, decomposing, or modifying services through reverse engineering, decompiling, disassembling, or otherwise imitating services through processing; and using automatic access programs; and thus interfering with the company's normal services by using services in other ways than normal uses
+<br>
+<br>27) Other acts that use the service for the purposes of clause 1 or 26 above or cause or encourage other members to engage in prohibited acts in clause 1 or 26 above
+<br>
+<br>2. The company may delete or temporarily delete the contents of the postings in the event that the members commit acts under clause 1. The company may restrict, suspend or unilaterally cancel the service of the members.
+<br>
+<br>3. The Company may temporarily restrict access to the relevant posts until the results of the legal action (e.g., prosecution office, court decision, or damages decision) are made by the member, if the other member or a third party has taken civil or criminal legal action (e.g., filing a complaint, filing a claim for damages) against the member or the Company on the basis of the violation of legal interests of the postings made public through the acts under clause 1.
+<br>
+<br>4. The member concerned shall be responsible for damages caused by the respective clause 1 and for legal action by the relevant agency.
+<br>
+<br>5. In the event any other dispute involving a third party company arises due to the member's posting, the member shall pay the expenses incurred for the settlement and handle the dispute for the company, and the member shall pay compensation to the company if the company makes compensation to the third party or damages to the company.
+<br>
+<br>6. The members shall comply with the relevant statutes, the provisions of these terms and conditions, the precautions announced by the Company, and the notices made by the Company in connection with the service, and shall not damage the Company's reputation or interfere with its performance.
+<br>
+<br>7. The member shall not use the information obtained by using the service itself or by using the service against the purpose and method specified by the Company without prior approval from the Company
+<br>
+<br>8. The company notifies the members of the service system and the matters concerning the inspection of the line, the terms and conditions of the service, the matters concerning the service change, the matters concerning the operation of the service, and the matters concerning the service update/change, etc. through the Bingo service website (https://www.sleep-doc.com) or the application notice, so the member shall check the notice of the service website at any time. The company shall not be held liable for damages caused by the unidentified notification by member.
+<br>
+<br>9. Despite previous article, the company can immediately suspend permanent use if it violates the relevant laws, such as the provision and operation of illegal programs in violation of the resident registration law, phone number theft, copyright law and computer program protection law, illegal communication and hacking in violation of the information and communication network law, distribution of malicious programs, and excessive access rights. All benefits obtained through service use in the event of permanent suspension of service under this section shall also be extinguished. The company shall not compensate for them separately.
+<br>
+<br><b>Article 12 (Point service)</b>
+<br>
+<br>1. ""Point"" shall be granted to the members in accordance with the company's policy, and the period of use shall be three years from the date of installment, and any matters concerning the deposit criteria, conditions and restrictions shall be posted or notified separately on the service screen. The terms and conditions of use of ""points"" may vary depending on the company's policy.
+<br>2. The ""point"" automatically expires in the event of a member's withdrawal and disqualification.
+<br>3. The company can terminate the point service after prior notice for management and technical reasons, and the company must make the advance notice at least one month in advance. In this case, miraculous points that are not used until the pre-announced end of service will be decimated.
+<br>
+<br><b>Article 13 (Protection of personal information)</b>
+<br>
+<br>1. The company shares an e-mail address to provide this service to its members. The personal information collection procedure is deemed to have agreed to the collection of personal information by checking the terms of use and clicking the ""Next"" button when registering the first e-mail..
+<br>
+<br>2. The member may withdraw at any time the member agrees to collect, use, and provide personal information to the Company..
+<br>
+<br>3. The relevant laws and the Company's privacy policy apply to the protection and use of personal information. However, the Company's Privacy Policy does not apply to linked sites other than the Company's official sites.
+<br>
+
+" ]]></string>
+    <string name="terms_conditions_text5" ><![CDATA["<br>4. The Company may provide personal information to third parties with the consent of the user in following cases. In this case, the provision of personal information to third parties is only possible with the consent of the user. If user do not want personal information to be provided, user will not use the service or participate in any form of promotion or event.
+<br>
+<br>1) User’s name, address, and phone number may be provided to the retailer, seller, or shipper for shipping and settlement purposes, such as purchasing items or using paid content.
+<br>
+<br>2) Personal information such as names, addresses, and phone numbers of members participating in various event events may be provided to the host of the event
+.
+<br>
+<br>5. The Company will immediately terminate the member's personal information if the service is discontinued or the member withdraws his / her consent to provide personal information. However, schedule information can be kept as stipulated by relevant laws such as the Consumer Protection Act in electronic commerce.
+<br>
+<br>6. The Company may collect additional personal information in accordance with the relevant laws and regulations, with the consent of the member, for the purpose of improving the service and introducing the service to the member.
+
+<br>
+<br>7. The Company shall not be held responsible for any information including account information of the exposed members due to the reason of the member's failure.
+<br>
+<br><b>Article 14 (Use and provision of personal location information) </b>
+<br> If a company wishes to provide a service using personal location information, it must obtain the consent of the ""personal location information entity"" after specifying the following contents in the Terms and conditions in advance
+
+<br>① The Company shall post on the Bingo service website (https://www.sleep-doc.com) or on the application service screen so that users can easily know their contact information, address, telephone number and other contact details, and policy will be visible through the connection screen.
+<br>② The Company will automatically record and retain location information and provide confirmation data for processing complaints and keep the data for 6 months. If the user withdraws all or part of the consent to use or provide personal location information, it shall use the location information without delay except the need to preserve it by law. Data relating to the provision (in the case of partial withdrawal of consent, the part relating to withdrawal) shall be destroyed.
+<br>③ In the case of providing the personal location information to a third party designated by the subject of the personal location information, the person concerned and the purpose of providing are notified to the subject of the personal location information and obtained prior consent, and in the case of providing to the third party, the communication terminal that has collected the personal location information immediately informs the person who is provided to the personal location information subject each time, the date and time of the provision and the purpose of providing. You may notify us by means of e-mail or online posting specified by the subject of your personal information in the following
+.
+<br>1. When the communication terminal equipment that has collected the personal location information does not have a function of receiving text, voice, or video
+
+<br>2. If the person's location information request is made in advance by the subject such as online posting
+<br>
+<br><b>Article 15 (Rights of personal location information subject) </b>
+<br> The personal location information subject may consent to the use of personal location information, the purpose for which it is provided, the scope of the recipient and some of the location-based services, or may withdraw all or part of the consent at any time.
+<br>② Personal location information subject may require the temporary suspension of use or provision of personal location information at any time. In this case, the Company does not reject the request and takes technical measures to do so.
+<br>③ The personal location information subject may request the company to read or notify the following materials, and if there is an error in the material, the person may request the correction. In this case, the Company will not refuse the request without justifiable grounds.
+<br>1. Use location information for a person's location information subject. Fact sheet of provision evidence
+
+<br>2. The reason and content of the personal location information of the individual location information subject provided to the third person by the law or other laws of the protection and use of location information, etc.
+
+<br>④ If the Company withdraws all or part of the consent to the use of location information by the subject, the Company shall use the personal location information and location information without delay and confirm the provision of the information (if withdrawing part of the agreement, destroy confirmed part).
+<br>⑤ The personal location information subject may request the Ccompany to correct the Company through prescribed procedures for the exercise of the rights of ① or ④.
+<br>
+<br><b>Article 16 (Rights of legal representative) </b>
+<br> If the Company use personal location information of children under 14 years old, the company must obtain the consent of a child under the age of 14 and his / her legal representative in the case of providing the service (including the service provided to a third party designated by the personal location information entity).
+<br>② In the case that the Company intends to use the personal information of the children under the age of 14 or to use the location information and the confirmation of the provision of the information beyond the scope specified or notified in the terms of use or to provide the information to a third party, the Company must get child and legal representative’s consent. However, the following cases are excluded.
+<br>1. In the case of statistical writing, academic research, or market research that specific personal information cannot be identified,
+<br>③ If a legal representative agrees to use or provide personal location information of a child under the age of 14, he / she may exercise the right of withdrawal of consent, withdrawal of consent and suspension, viewing and notification in accordance with the provisions of the Act on Protection and Utilization of Location Information.
+<br>
+<br><b>Article 17 (The rights of the protection obligation of children under 8 years old) </b>
+<br>① The Company agrees to the use or provision of personal location information for the protection of the life or body of children under the age of eight (8) years or less if the person in charge of the protection of (hereinafter referred to as ""child under the age of 8""
+<br>1. Child under the age of 8
+<br>2.Adult guardian
+<br>3. Persons who have mental disabilities under the provisions of Article 2, Paragraph 2, Item 2 of the Welfare Act for Disabled Persons and who are severely disabled persons under the provisions of Article 2 (2) (Limited to those who have registered for the disabled pursuant to Article 29 of the Welfare for the Disabled Act
+<br>② For the protection of life or body such as children under the age of eight, the person who is obliged to consent to the use or provision of personal location information must submit to the company a written document certifying his / her commitment as a legal representative.
+<br>③ If a guardian agrees to use or provide personal location information, such as children under the age of eight, the right of personal location information subject can be fully exercised.
+<br>
+<br><b>Article 18 (Designation of the person responsible for the location information management) </b>
+<br>① The Company designates and manages a person who is in a position to take actual responsibility for managing and protecting the location information properly and handling the complaints of the personal location information subject.
+<br>② Position Information Management Officer is the department head of the department that provides location-based service, and the person in charge of location information management designates as May, 2014 as follows..
+<br>1. Department: Service operation room
+<br>2. Name: Representative Eric Moon
+<br>3. Phone number: 02-6925-1718
+<br>
+<br><b>Article 19 (Prohibition of transfer)</b>
+<br>
+<br> The Company and the member shall not assign or delegate all or part of the status, rights or obligations incurred pursuant to this agreement to any third party without the express prior consent of the other party, and may not be disposed of for the purpose of providing security.
+<br>
+<br><b>Article 20 (Termination of use contract and restriction of use)</b>
+<br>
+<br>1. When a member wishes to terminate the service use contract, he / she can request withdrawal through the member withdrawal function in the service provided by the company or via the e-mail address of the contact person. The Company shall handle the request for withdrawal immediately upon the request for withdrawal, except as otherwise provided in the applicable subparagraph of Article 9 -(1).
+<br>
+<br>2. Upon completion of the membership withdrawal process, the service usage contract that the member has is terminated immediately and the company will erase the personal information that the member has. However, if the Company terminates the use contract with its own authority, it will give advance notice of the termination to the member before the cancellation and give the opportunity to call.
+<br>
+<br>3. In the event that a member violates the terms and conditions of Article 11, the Company may terminate this Agreement unilaterally without prior notice, restrict the membership of the Member, or suspend the use of the Service for a specified period. User may also be liable for civil and criminal liability for any damage to the service management.
+<br>
+<br>4. In spite of the previous clause, the Company shall not be liable for any violation of applicable law, such as illegal programs in violation of the Copyright Act and the Computer Program Protection Act, interference with the operation of the illegal programs, illegal communication and hacking in violation of the information and communication network law, distribution of malicious programs, Immediate suspension is possible immediately.
+<br>
+<br>5. The Company may limit its use for the protection of member information and the efficiency of its operation if the member does not log in for more than 3 months continuously.
+<br>
+<br>6. The Company may notify changes to membership in accordance with Paragraph 3 of this Article within the service or external services that the member has subscribed to and using the Company's services
+<br>
+<br>7. Members are responsible for compensating the Company or any other member for damages caused by the member.
+<br>
+<br>8. Members may file complaints in accordance with procedures established by the Company for restrictions on use under this section. If the Company considers that the objection is justified at this time, the Company shall resume use of the service immediately.
+<br>
+<br><b>Article 21 (Liability limitation) </b>
+<br>
+<br>1. The Company shall not be liable for acts of natural disaster, force majeure, war or any telecommunications carrier to suspend or otherwise provide telecommunications services, and in the event that the Company cannot provide services due to intentional service interruption, technical difficulties, or other force majeure caused by a third party who has entered into a service agreement with the Company for the purpose of providing the service, the liability shall be waived, or any other person.
+<br>
+<br>2. The Company shall be exempted from any liability for damages incurred due to unavoidable reasons such as repair, replacement, regular inspection, temporary inspection.
+<br>
+<br>3. The Company shall not be liable for any disruption or service interruption caused by the use or failure of the member to use the service.
+<br>
+<br>4. The Company shall not be responsible or liable for the accuracy, completeness, legality, legitimacy, credibility, etc. of the information, data or facts provided by the service, and shall not be liable for the ultimate no responsibility is assumed. In addition, the Company shall not be responsible for the reliability, accuracy, completeness, quality, etc. of the information, data or facts posted or transmitted by members in the service or on the website
+<br>
+<br>5. The Company does not guarantee or assume the legality or truthfulness of any information, such as goods, services, suggestions, etc. obtained through the products or services proposed or obtained by the Company's services or provided by members or links.
+<br>
+<br>6. The Company shall not be liable for damages incurred due to the information obtained by members using the Company's services unless there is intent or negligence.
+<br>
+<br>7. The Company shall be exempted from any liability in the event of a transaction between members or between a member and a third party without the intent or negligence thereof.
+<br>
+
+" ]]></string>
+    <string name="terms_conditions_text6" ><![CDATA["
+<br>8. The Company shall not be liable for any damages incurred by members in connection with the use of the free services provided by the Company, unless there are intent or negligence.
+<br>
+<br>9. The Company shall not be liable for any damages incurred by the member due to the inability to use the service unless there is intent or negligence.
+
+<br>
+<br>10. The Company shall not be liable for the loss of the profit that the member expects from the service unless it is intentional or negligent, and shall not be held liable for any damage caused by the data or information obtained through the service.
+<br>
+<br>11. The Company shall not be liable for the failure of members to obtain the benefits expected from using the service unless there is intent or negligence, and shall be exempted from any liability for damages arising from the selection or use of the Service for the Service
+<br>
+<br>12. The Company shall have no obligation to pre-review the member's post or to check or review the contents of the post at any time, and shall not be responsible for the results.
+<br>
+<br>13. The Company does not undertake any obligation to monitor the contents and quality of the products or services advertised by the third party through the service screen or the linked website.
+<br>
+<br>14. The Company has no obligation to intervene in the dispute arising out of the mutual service or between the member and the third party mutually, and is not responsible for any damages caused by this disruption unless it is intentional or negligent. In addition, the Company shall not be liable to compensate members for the mental damage suffered by other members using the service.
+<br>
+<br>15. In the event of any damages to the Company caused by a violation of the provision of this terms and conditions, the member who violates these terms shall compensate all damages incurred to the Company.
+<br>
+<br>16. The Company shall be exempted from any liability in case a telecommunication carrier, such as a telecommunication operator, ceases to provide telecommunication services or fails to provide the telecommunication service normally and any damage is incurred to the
+<br>
+<br>17. The Company shall not be liable for any problems caused by the user's computer environment or any problems caused by the network environment which does not cause the Company's obligations.
+<br>
+<br>18. The Company shall not be liable for any damages imputable to user’s cause such as incorrect description, computer error, neglect of password management, etc.
+<br>
+<br>19. The Company shall not be liable for any problems arising from security problems that are not within the computer environment of the member or the company's management, or problems that arise without the company's fault, such as network hacking which is difficult to defend at the current level of security technology.
+<br>
+<br>20. Members shall be responsible for the loss of data, data, and information on the computer system that may result from downloading or accessing certain programs or information using the Company's services at their own discretion.
+<br>
+<br>21. Company and its employees and representatives shall not be liable for any damages arising from:.
+<br>
+<br>1) Damages resulting from false or inaccurate membership status information
+<br>
+<br>2) Personal damages arising out of access to and use of the services, regardless of their nature and scope
+<br>
+<br>3) Any unauthorized third party access to the server or damages resulting from the use of the server
+<br>
+<br>4) Damages arising out of any unlawful interference or interruption of third party's transmissions to or from the server
+<br>
+<br>5) Damages caused by any viruses, spyware and other malicious programs that are illegally transmitted, distributed, or transmitted or distributed by a third party using the Services;
+<br>
+<br>6) Damage caused by errors or omissions, omissions or destruction of transmitted data.
+<br>
+<br>7) Membership status registration between members and various civil liability due to defamation or other illegal acts in the process of using the service
+<br>
+<br><b> Article 22 (Scope of damage compensation)</b>
+<br>
+<br>1. Customer or personal information entity may claim damages against the company if the company is harmed by the violation of the provisions of Articles 5 or 24 of the Act on the Protection and Utilization of Personal Information. In this case, the company can not be held liable unless proved to be intentional or negligent.
+<br>
+<br>2. The Company shall not be liable for damages if the damages are caused by force majeure such as natural disasters or caused by intention or negligence of the user
+.
+<br>
+<br>3. The Company shall not indemnify the User or any third party against any damages suffered by the User by using the location information with error that may occur according to the communication environment of the network operator.
+<br>
+<br>4. User shall be liable to compensate any damages incurred by Company and Network operator in violation of the provisions of this agreement such as obligation of the user even after termination of use contract.
+<br>
+<br><b>Article 23 (Claim of damage)</b>
+<br>
+<br> Claims for damages shall be given in writing to the Company by stating the reasons for the claim, the amount of the claim and the basis for the calculation
+<br>
+<br><b>Article 24 (Arbitration of disputes and others)</b>
+<br>
+<br>1. If the Company can not discuss or discuss the disputes related to location information, the Company may apply for financial support to the Korea Communications Commission under Article 40-2 of the Basic Act on Telecommunications.
+<br>
+<br>2. If the Company or the Customer is unable to consult or negotiate with the parties regarding the disputes related to the location information, the arbitration shall be conducted by the Personal Information Dispute Resolution Committee pursuant to Article 33 of the Act on Promotion of Information Network Usage and Information Protection You can apply.
+<br>
+<br><b>Article 25 (Resolution of disputes)</b>
+<br>
+<br> This Agreement shall be governed by and enforced by the laws of the Republic of Korea and may be filed in any court of competent jurisdiction over any dispute arising between the Company and the Member in connection with the use of the Services.
+<br>
+<br>
+<br><b>Article 26 (Applicable regulation)</b>
+<br>
+<br> The matters not specified in these Terms and Conditions shall be governed by the laws and regulations relating to the protection and use of location information, the Act on the Promotion of Information and Communication Network Utilization and Information Protection, the Basic Law on Telecommunications and the Telecommunications Business Act, according to the guidelines set out separately by the company, and for the parts not specified in the law
+.
+<br>
+<br><b>Article 27 (Address of the Company)</b>
+<br>
+<br>Company name and address are as follows.
+<br>
+<br>• Name: JM Smart Co., Ltd
+<br>• Address : 2F, Samsung Gwell Bldg, 114-11 Samsung-dong, Gangnam-gu, Seoul
+<br>• Customer service center: 1833-7828
+<br>
+<br>Additional clause
+<br>
+<br>1. This policy will be effective from February 25, 2019
+<br>
+
+" ]]></string>
+    <string name="user_type1">Pet Parents</string>
+    <string name="user_type2">Pet Hospitals</string>
+    <string name="user_type3">Pet Shelters</string>
+
+</resources>

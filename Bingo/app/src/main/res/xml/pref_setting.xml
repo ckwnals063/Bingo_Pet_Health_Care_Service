@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account">
+        <PreferenceScreen
+            android:key="pref_s_name_mail"
+            android:summary="bingo@gmail.com"
+            android:icon="@drawable/ic_profile"/>
+
+        <ListPreference
+            android:defaultValue="false"
+            android:key="pref_s_unit"
+            android:title="@string/unit"
+            android:entryValues="@array/weight"
+            android:entries="@array/weight"/>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="pref_s_auto_login"
+            android:title="@string/auto_login"/>
+
+
+        <PreferenceScreen
+            android:key="pref_s_change_pw"
+            android:title="@string/change_password"/>
+
+        <PreferenceScreen
+            android:key="pref_s_remove"
+            android:title="@string/remove_account"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/service_inquiry">
+        <PreferenceScreen
+            android:key="pref_s_notice"
+            android:title="@string/notice"/>
+        <PreferenceScreen
+            android:key="pref_s_policy"
+            android:title="@string/privacy_policy"/>
+        <PreferenceScreen
+            android:key="pref_s_terms"
+            android:title="@string/terms_conditions"/>
+        <PreferenceScreen
+            android:key="pref_s_inquiry"
+            android:title="@string/inquiry"/>
+    </PreferenceCategory>
+</PreferenceScreen>

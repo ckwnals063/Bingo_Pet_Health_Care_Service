@@ -1,0 +1,14 @@
+package kr.co.jmsmart.bingo.view.base;
+
+/**
+* ================================================
+* ActivityNavigator.java
+* @작성자       : kyw
+* @작성일       : 2018-12-14
+* @클래스 설명  : 네비게이터 인터페이스
+* ================================================
+*/
+
+public interface ActivityNavigator {
+    void callActivity();
+}

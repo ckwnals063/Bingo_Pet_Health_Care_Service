@@ -1,0 +1,49 @@
+package kr.co.jmsmart.bingo.util;
+
+import android.content.Context;
+import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+* ================================================
+* SleepDocUtil.java
+* @작성자       : kyw
+* @작성일       : 2018-12-13
+* @클래스 설명  : 공통 유틸
+* ================================================
+*/
+
+public class SleepDocUtil {
+
+    public void printToastLong(Context context, String text){
+        Toast.makeText(context, text, Toast.LENGTH_LONG).show();
+    }
+    public void printToastShort(Context context, String text){
+        Toast.makeText(context, text, Toast.LENGTH_SHORT).show();
+    }
+
+
+
+    public String curDate(){
+        /**
+        * ================================================
+         * @Method 설명 : 현재 날짜
+         * @작성자       : curDate
+         * @작성일         : 2018-12-16 
+         * @param        : []
+         * @return       : java.lang.String
+        * ================================================
+        */
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        return simpleDateFormat.format(date).toString();
+    }
+    public String curTime(){
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(" hh:mm:ss");
+        return simpleDateFormat.format(date).toString();
+    }
+    
+}

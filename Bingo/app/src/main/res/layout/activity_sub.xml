@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="subModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.SubViewModel"/>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_ani1"
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ani_arrow"/>
+            <ImageView
+                android:id="@+id/iv_ani2"
+                android:layout_gravity="right"
+                android:rotation="180"
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:src="@drawable/ani_arrow"/>
+            <com.github.mikephil.charting.charts.CombinedChart
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/graph"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+            <!--<com.github.mikephil.charting.charts.ScatterChart
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="bottom"
+                android:id="@+id/graph_color1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>-->
+        </FrameLayout>
+        <include
+            layout="@layout/color_graph"/>
+        <ListView
+            android:id="@+id/lv_card"
+            android:background="#eeeeee"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,100 @@
+package kr.co.jmsmart.bingo.view.org.viewModel;
+
+import android.databinding.Observable;
+import android.databinding.ObservableBoolean;
+import android.databinding.ObservableField;
+import android.databinding.ObservableInt;
+import android.text.TextUtils;
+import android.util.Patterns;
+import android.widget.RatingBar;
+
+import kr.co.jmsmart.bingo.util.SleepDocUtil;
+import kr.co.jmsmart.bingo.view.base.ActivityNavigator;
+import kr.co.jmsmart.bingo.view.base.CommonModel;
+
+/**
+* ================================================
+* ValidationViewModel.java
+* @작성자       : kyw
+* @작성일       : 2018-12-14
+* @클래스 설명  : validation 샘플 모델
+* ================================================
+*/
+
+public class ValidationViewModel implements CommonModel {
+
+    private ActivityNavigator navigator;
+
+    public final ObservableField<String> name = new ObservableField<>();
+    public final ObservableField<String> email = new ObservableField<>();
+    public final ObservableInt score = new ObservableInt();
+    public final ObservableBoolean isValid = new ObservableBoolean();
+
+    /** SleepDocUtil*/
+    private SleepDocUtil sleepdocUtil = new SleepDocUtil();
+
+    public ValidationViewModel(ActivityNavigator navigator){
+        this.navigator = navigator;
+    }
+
+    public void callActivity(){
+        navigator.callActivity();
+    }
+
+    @Override
+    public void onCreate() {
+        score.set(0); //score value를 0으로 둔다.
+        isValid.set(false); //유효한지 보는거지.
+
+        name.addOnPropertyChangedCallback(new Observable.OnPropertyChangedCallback() {
+            @Override
+            public void onPropertyChanged(Observable observable, int i) {
+                validation();
+            }
+        });
+
+        email.addOnPropertyChangedCallback(new Observable.OnPropertyChangedCallback() {
+            @Override
+            public void onPropertyChanged(Observable observable, int i) {
+                validation();
+            }
+        });
+    }
+
+
+
+    @Override
+    public void onResume() {
+
+    }
+
+    @Override
+    public void onPause() {
+
+    }
+
+    @Override
+    public void onDestroy() {
+
+    }
+
+    private void validation() {
+        boolean isValidName = !TextUtils.isEmpty(name.get());
+        boolean isValidEmail = !TextUtils.isEmpty(email.get())
+                &&
+                Patterns.EMAIL_ADDRESS.matcher(email.get()).matches(); //메일주소는 Patterns 클래스를 보아라 //phone도 있따.
+        boolean isValidScore = score.get() > 0;
+        isValid.set(isValidName && isValidEmail && isValidScore);
+    }
+
+    public RatingBar.OnRatingBarChangeListener scoreChangeListener = new RatingBar.OnRatingBarChangeListener() {
+        @Override
+        public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
+            score.set((int) v);
+            validation();
+        }
+    };
+
+
+
+}

@@ -1,0 +1,54 @@
+package kr.co.jmsmart.bingo.view.org;
+
+import android.content.Intent;
+import android.databinding.DataBindingUtil;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+
+import kr.co.jmsmart.bingo.R;
+import kr.co.jmsmart.bingo.databinding.ActivityValidationBinding;
+import kr.co.jmsmart.bingo.view.base.ActivityNavigator;
+import kr.co.jmsmart.bingo.view.org.viewModel.ValidationViewModel;
+
+public class ValidationActivity extends AppCompatActivity implements ActivityNavigator {
+
+    ActivityValidationBinding binding;
+    /** ValidationViewModel */
+    ValidationViewModel validationViewModel = new ValidationViewModel(this);
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_validation);
+        binding.setVal(validationViewModel);
+
+        validationViewModel.onCreate();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        validationViewModel.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        validationViewModel.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        validationViewModel.onDestroy();
+    }
+
+    @Override
+    public void callActivity() {
+        startActivity(new Intent(getApplicationContext(), ValidationActivity.class));
+    }
+
+}

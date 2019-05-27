@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="detailChartModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.DetailChartViewModel"/>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="22.6dp"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/chevron_left"
+                android:background="#ffffff"
+                android:id="@+id/detailPreBtn"
+                android:onClick="@{() -> detailChartModel.onPreBtnClick()}"/>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_calendar"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="50dp"
+                android:textSize="16sp"
+                android:textColor="#ff6186"
+                android:id="@+id/detailTimetxt"/>
+            <ImageButton
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:background="#ffffff"
+                android:src="@drawable/chevron_right_copy"
+                android:id="@+id/detailNextBtn"
+                android:onClick="@{() -> detailChartModel.onNextBtnClick()}"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/iv_ani1"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ani_arrow"/>
+            <ImageView
+                android:id="@+id/iv_ani2"
+                android:layout_gravity="right"
+                android:rotation="180"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ani_arrow"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/graph"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"/>
+
+        </FrameLayout>
+
+
+        <ListView
+            android:id="@+id/detail_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>

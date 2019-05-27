@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="petModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.PetViewModel"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#eeeeee">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            app:cardBackgroundColor="#ffffff"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="48dp"
+                android:id="@+id/layout_puppy_info"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:backgroundTint="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp"
+                    android:hint="@string/name"
+                    android:id="@+id/edit_pet_name"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/breed"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinner_pet_type"
+                    android:layout_marginBottom="4dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="4dp">
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:id="@+id/edit_pet_weight"
+                        android:inputType="number"
+                        android:textSize="16sp"
+                        app:backgroundTint="@color/colorPrimary"
+                        android:hint="@string/weight"/>
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/spinner_weight"
+                        android:entries="@array/weight"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sex"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="4dp"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/radio_pet"
+                    android:layout_marginBottom="4dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radio_pet_male"
+                        android:text="@string/pet_male"
+                        android:textSize="28sp"
+                        android:gravity="center"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radio_pet_female"
+                        android:text="@string/pet_female"
+                        android:textSize="28sp"
+                        android:gravity="center"/>
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/birthday"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="4dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_pet_date"
+                    android:textSize="16sp"
+                    app:backgroundTint="@color/colorPrimary"
+                    android:hint="ex> 20180100"
+                    android:inputType="date"
+                    android:layout_marginBottom="4dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_picture"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="4dp"/>
+                <RelativeLayout
+                    android:id="@+id/pic_box"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/img_dog"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:paddingRight="12dp"
+                        android:paddingBottom="12dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/default_picture"
+                        />
+                    <ImageView
+                        android:layout_gravity="right|bottom"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_camera"
+                        android:layout_alignBottom="@id/img_dog"
+                        android:layout_alignEnd="@id/img_dog"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"
+                android:text="@string/add"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:paddingTop="12dp"
+                android:paddingBottom="16dp"
+                android:id="@+id/btn_next"/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </FrameLayout>
+
+</layout>

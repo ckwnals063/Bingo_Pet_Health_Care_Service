@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.jmsmart.bingo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.com.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.com.DeviceScanActivity"
+            android:label="@string/device_scan" />
+        <activity
+            android:name=".view.com.SignUpActivity"
+            android:label="@string/sign_up" />
+        <activity
+            android:name=".view.com.LoginActivity"
+            android:label="@string/sign_in" />
+        <activity
+            android:name=".view.com.MyPageEditActivity"
+            android:label="@string/my_page" />
+        <activity
+            android:name=".view.com.SettingActivity"
+            android:label="@string/setting"
+            android:theme="@style/SettingsTheme" />
+        <activity android:name=".view.com.FriendListActivity" />
+        <activity android:name=".view.com.PetActivity" />
+        <activity
+            android:name=".view.com.ManagePetActivity"
+            android:label="@string/manage_pet" />
+        <activity
+            android:name=".view.com.ManageDeviceActivity"
+            android:label="@string/manage_device" />
+
+        <service
+            android:name=".service.CommandService"
+            android:exported="false" />
+        <service
+            android:name=".service.ExecuteService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.com.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.com.DetailChartActivity" />
+        <activity
+            android:name=".view.com.MyPageActivity"
+            android:label="@string/my_page"
+            android:theme="@style/SettingsTheme" />
+        <activity
+            android:name=".view.com.DailyReportActivity"
+            android:theme="@style/AppTheme.DailyReport" />
+        <activity android:name=".view.com.WeekCompareActivity" />
+        <activity android:name=".view.com.SubActivity" />
+
+        <activity android:name=".view.com.TextActivity" />
+        <activity android:name=".view.com.FindPasswordActivity"></activity>
+    </application>
+
+</manifest>

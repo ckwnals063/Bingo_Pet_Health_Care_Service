@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/info_personal">
+        <PreferenceScreen
+            android:key="pref_name_mail"
+            android:summary="bingo@gmail.com"
+            android:icon="@drawable/ic_profile"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/more_info">
+        <PreferenceScreen
+            android:key="pref_phone"
+            android:title="@string/phone_number"/>
+        <PreferenceScreen
+            android:key="pref_birth"
+            android:title="@string/birthday"/>
+        <PreferenceScreen
+            android:key="pref_sex"
+            android:title="@string/sex"/>
+
+
+        <PreferenceScreen
+            android:key="pref_edit"
+            android:title="@string/modi_info"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

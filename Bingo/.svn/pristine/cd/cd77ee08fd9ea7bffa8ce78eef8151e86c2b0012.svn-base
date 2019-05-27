@@ -1,0 +1,135 @@
+package kr.co.jmsmart.bingo.view.com.viewModel;
+
+import android.content.Context;
+import android.databinding.ObservableField;
+import android.os.AsyncTask;
+import android.util.Log;
+
+import com.wapplecloud.libwapple.APIWrapperBase;
+import com.wapplecloud.libwapple.ResponseCallback;
+
+import org.json.JSONObject;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import kr.co.jmsmart.bingo.util.APIWrapper;
+import kr.co.jmsmart.bingo.util.SleepDocUtil;
+import kr.co.jmsmart.bingo.view.base.CommonModel;
+import kr.co.jmsmart.bingo.view.com.MainActivity;
+
+
+/**
+* ================================================
+* MainViewModel.java
+* @작성자       : kyw
+* @작성일       : 2018-12-13
+* @클래스 설명  : 메인 뷰 모델
+* ================================================
+*/
+
+public class MainViewModel implements CommonModel {
+    /** SleepDocUtil*/
+    private SleepDocUtil sleepdocUtil = new SleepDocUtil();
+
+    private Context context = null;
+
+    private String authId;
+
+    //텍스트
+    public final ObservableField<String> helloText = new ObservableField<>();
+
+
+
+    public final ObservableField<String> activityTitleText = new ObservableField<>();
+    public final ObservableField<String> sleepTitleText = new ObservableField<>();
+    public final ObservableField<String> uvTitleText = new ObservableField<>();
+    public final ObservableField<String> daylightTitleText = new ObservableField<>();
+
+    public final ObservableField<String> activityCountText = new ObservableField<>();
+    public final ObservableField<String> sleepCountText = new ObservableField<>();
+    public final ObservableField<String> uvCountText = new ObservableField<>();
+    public final ObservableField<String> daylightCountText = new ObservableField<>();
+
+    public MainViewModel(Context context, String authId){
+        this.context = context;
+        this.authId = authId;
+    }
+
+    @Override
+    public void onCreate() {
+        APIWrapper.getInstance(context).retrieveSleepQualityRealtime(authId, new ResponseCallback() {
+            @Override
+            public void onError(int errorCode, String errorMsg) {
+
+            }
+
+            @Override
+            public void onDataReceived(JSONObject jsonResponse) {
+                try
+                {
+
+                    final JSONObject localJSONObject3 = jsonResponse.optJSONObject("result").optJSONObject("data").optJSONObject("d");
+                    final JSONObject localJSONObject1 = localJSONObject3.getJSONObject("slpbh").getJSONObject("hyg").getJSONObject("day");
+                    Log.i("zzqyu", localJSONObject3.toString(4));
+                    //final JSONObject localJSONObject2 = localJSONObject3.getJSONObject("q");
+                    final JSONObject localJSONObjectUV = localJSONObject3.getJSONObject("uv");
+                    //localJSONObject3 = localJSONObject3.getJSONObject("uv");
+                    activityCountText.set(localJSONObject1.getInt("steps")+"");
+                    sleepCountText.set("No data");//localJSONObject2.getInt("total")+""
+                    uvCountText.set(localJSONObjectUV.getString("uvexp"));
+                    daylightCountText.set(localJSONObject1.getInt("light")+"");
+                    return;
+                }
+                catch (Exception paramAnonymousJSONObject)
+                {
+                    paramAnonymousJSONObject.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onReceiveResponse() {
+
+            }
+        });
+
+        helloText.set("Hello");
+
+        activityTitleText.set("Activity");
+        sleepTitleText.set("Sleep");
+        uvTitleText.set("UV Exposure");
+        daylightTitleText.set("Daylight Exposure");
+    }
+
+    @Override
+    public void onResume() {
+
+    }
+
+    @Override
+    public void onPause() {
+
+    }
+
+    @Override
+    public void onDestroy() {
+
+    }
+
+    public void showCurrentTime(){
+        /**
+        * ================================================
+         * @Method 설명 : 시간보여줭
+         * @작성자       : showCurrentTime
+         * @작성일         : 2018-12-16 
+         * @param        : []
+         * @return       : void
+        * ================================================
+        */
+        helloText.set(sleepdocUtil.curDate() + " " + sleepdocUtil.curTime());
+    }
+
+
+
+}

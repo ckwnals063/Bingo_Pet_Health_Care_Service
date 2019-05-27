@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6186</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#54a9ff</color>
+    <color name="colorSecond">#ffe24e</color>
+    <color name="card_title">#333333</color>
+    <color name="rate">#333333</color>
+
+</resources>

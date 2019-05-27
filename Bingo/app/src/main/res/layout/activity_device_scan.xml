@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="deviceScanModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.DeviceScanViewModel"/>
+
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:animateLayoutChanges="true">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/device_search"
+            android:layout_gravity="center"
+            android:visibility="@{deviceScanModel.imgVisible}"/>
+
+        <LinearLayout
+            android:id="@+id/layoutScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="top|center"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_margin="8dp"
+                android:text="@{deviceScanModel.textScanInfo}"/>
+
+            <ListView
+                android:id="@+id/lvScanResult"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="0dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:scrollbars="none"/>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btSync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15sp"
+            app:backgroundTint="#ffffff"
+            app:fabSize="normal"
+            android:src="@drawable/ic_sync_pink"
+            android:onClick="@{() -> deviceScanModel.onClick()}"/>
+    </FrameLayout>
+</layout>
+

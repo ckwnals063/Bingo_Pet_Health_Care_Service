@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="mainModel"
+            type="kr.co.jmsmart.bingo.view.com.viewModel.MainViewModel"/>
+
+    </data>
+
+    <!--레이아웃은 여기서 부터시작하면되지-->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#eeeeee">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{mainModel.helloText}"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> mainModel.showCurrentTime()}"
+            android:text="sampleButton"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="callActivity"
+            android:text="next Page"/>-->
+
+        <kr.co.jmsmart.bingo.view.base.CustomMainCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardHeight="120dp"
+            app:backgroundColor="#ffffff"
+            app:titleText="@{mainModel.activityTitleText}"
+            app:rateText="@{mainModel.activityCountText}"
+            app:moreVisible="invisible"
+            app:mentVisible="invisible"/>
+
+        <kr.co.jmsmart.bingo.view.base.CustomMainCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardHeight="120dp"
+            app:backgroundColor="#ffffff"
+            app:titleText="@{mainModel.sleepTitleText}"
+            app:rateText="@{mainModel.sleepCountText}"
+            app:moreVisible="invisible"
+            app:mentVisible="invisible"/>
+
+        <kr.co.jmsmart.bingo.view.base.CustomMainCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardHeight="120dp"
+            app:backgroundColor="#ffffff"
+            app:titleText="@{mainModel.uvTitleText}"
+            app:rateText="@{mainModel.uvCountText}"
+            app:moreVisible="invisible"
+            app:mentVisible="invisible"/>
+
+        <kr.co.jmsmart.bingo.view.base.CustomMainCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardHeight="120dp"
+            app:backgroundColor="#ffffff"
+            app:titleText="@{mainModel.daylightTitleText}"
+            app:rateText="@{mainModel.daylightCountText}"
+            app:moreVisible="invisible"
+            app:mentVisible="invisible"/>
+
+    </LinearLayout>
+    <!--레이아웃은 여기서 부터시작하면되지-->
+    </layout>
